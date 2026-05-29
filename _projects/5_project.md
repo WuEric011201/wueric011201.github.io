@@ -2,9 +2,9 @@
 layout: page
 title: Overdrive Guitar Pedal
 description: A standalone overdrive pedal — Volume, Tone, Gain, and a harshness switch — built for a friend.
-img: assets/img/5.jpg
+img: assets/img/wp_5_overdrive.jpg
 importance: 5
-category: work
+category: engineering
 related_publications: false
 ---
 

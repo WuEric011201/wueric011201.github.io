@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Ported posts from my [WordPress blog](https://nanjingtt.wordpress.com/) over to this site — see the [projects page](/projects/).
+Co-author on *Foundry Monolithic 3D Unlocks Large Throughput Benefits…* — accepted to **IEDM 2025**, San Francisco.

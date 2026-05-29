@@ -2,9 +2,9 @@
 layout: page
 title: 4 Complete Songs (Fall 2022)
 description: Four finished tracks from Fall 2022, including "Nanjing" — a piece named after my hometown.
-img: assets/img/6.jpg
+img: assets/img/wp_6_songs.jpg
 importance: 1
-category: fun
+category: music
 related_publications: false
 ---
 

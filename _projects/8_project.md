@@ -2,9 +2,9 @@
 layout: page
 title: Frequency Modulation Synthesis
 description: FM synthesis experiments using Dexed alongside guitar.
-img: assets/img/8.jpg
+img: assets/img/wp_8_fm.png
 importance: 3
-category: fun
+category: music
 related_publications: false
 ---
 

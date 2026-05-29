@@ -2,9 +2,9 @@
 layout: page
 title: Fuzz & Overdrive Guitar Pedal
 description: Op-amp overdrive with asymmetrical soft clipping, 3-band EQ tone stack, and a clean-blend low-end preserve, housed in a hand-drilled enclosure.
-img: assets/img/1.jpg
+img: assets/img/wp_1_fuzz.jpg
 importance: 1
-category: work
+category: engineering
 related_publications: false
 ---
 

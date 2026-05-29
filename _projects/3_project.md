@@ -2,9 +2,9 @@
 layout: page
 title: Belton Brick Delay + Reverb Pedal
 description: Hybrid delay-and-reverb pedal built around the PT2399 delay chip and the Belton Brick reverb module.
-img: assets/img/3.jpg
+img: assets/img/wp_3_delay.jpg
 importance: 3
-category: work
+category: engineering
 related_publications: false
 ---
 

@@ -2,9 +2,9 @@
 layout: page
 title: Music DEMO Dump
 description: An evolving collection of demo tracks, sketches, and works-in-progress.
-img: assets/img/7.jpg
+img: assets/img/wp_7_demos.jpg
 importance: 2
-category: fun
+category: music
 related_publications: false
 ---
 

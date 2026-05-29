@@ -2,9 +2,9 @@
 layout: page
 title: 13-Band Equalizer on FPGA + MicroBlaze
 description: Stereo 13-band FIR EQ at 50 kHz sample rate, with custom SPI for the LTC1865L ADC and LTC1654 DAC, controlled in C from a MicroBlaze soft-core over AXI4-Lite.
-img: assets/img/2.jpg
+img: assets/img/wp_2_eq.jpg
 importance: 2
-category: work
+category: engineering
 related_publications: false
 ---
 

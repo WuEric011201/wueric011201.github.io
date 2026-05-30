@@ -2,12 +2,12 @@
 layout: post
 title: "This is my band"
 date: 2026-05-29 18:00:00 -0500
-description: A short note pointing to the band's Spotify page.
+description: My former band at Washington University in Saint Louis.
 tags: music band
 categories: blog
 ---
 
-Sharing the band I play in — you can listen on Spotify:
+My former band at Washington University in Saint Louis.
 
 [**Listen on Spotify**](https://open.spotify.com/artist/3Jrym9MCO8TfBAInpVVS6m)
 
@@ -20,5 +20,3 @@ Sharing the band I play in — you can listen on Spotify:
   allowfullscreen=""
   allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
   loading="lazy"></iframe>
-
-More music: [SoundCloud](https://soundcloud.com/wu-eric-875982707) · [YouTube](https://youtube.com/@tw63130).

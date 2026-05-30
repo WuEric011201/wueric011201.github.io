@@ -5,7 +5,7 @@ permalink: /projects/
 description:
 nav: true
 nav_order: 3
-display_categories: [research, engineering, music]
+display_categories: [engineering, music]
 horizontal: false
 ---
 

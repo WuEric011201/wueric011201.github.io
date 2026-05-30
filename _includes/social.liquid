@@ -73,7 +73,9 @@
     {% when 'semanticscholar_id' %}
       <a href="https://www.semanticscholar.org/author/{{ social[1] }}" title="Semantic Scholar"><i class="ai ai-semantic-scholar"></i></a>
     {% when 'spotify_id' %}
-      <a href="https://open.spotify.com/user/{{ social[1] }}" title="Spotify"><i class="fa-brands fa-spotify"></i></a>
+      <a href="https://open.spotify.com/artist/{{ social[1] }}" title="Spotify"><i class="fa-brands fa-spotify"></i></a>
+    {% when 'soundcloud_username' %}
+      <a href="https://soundcloud.com/{{ social[1] }}" title="SoundCloud"><i class="fa-brands fa-soundcloud"></i></a>
     {% when 'stackoverflow_id' %}
       <a href="https://stackoverflow.com/users/{{ social[1] }}" title="Stackoverflow"><i class="fa-brands fa-stack-overflow"></i></a>
     {% when 'strava_userid' %}

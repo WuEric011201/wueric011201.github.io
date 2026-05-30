@@ -207,26 +207,6 @@ ninja.data = [{
           description: "Two VCV Rack synth patches — a long-form West Coast drone inspired by Éliane Radigue, and a compact East Coast (VCO → VCF → VCA) patch with separate lead, bass, and chord voices.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/10_project/";
-            },},{id: "projects-scalable-ising-machine-multi-chip-tape-out-amp-multi-fpga-platform",
-          title: 'Scalable Ising Machine — Multi-Chip Tape-out &amp;amp; Multi-FPGA Platform',
-          description: "Leading a TSMC 28 nm tape-out of a scalable, multi-chip Ising machine, plus GPU implementation of Ising algorithms and a multi-FPGA platform (ZCU106 ring + XEM8320 mesh) for ultra-large graph combinatorial optimization.",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/11_project/";
-            },},{id: "projects-monolithic-3d-ic-reram-carbon-nanotube-memory-tape-out",
-          title: 'Monolithic 3D IC — ReRAM + Carbon-Nanotube Memory Tape-out',
-          description: "Designed and taped out a 1 kb ReRAM + CNT memory array with periphery in Skywater 130 nm BEOL, validated 1T1R FORM/SET/RESET operations, and automated probe-station flows for CNT device characterization.",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/12_project/";
-            },},{id: "projects-3d-sram-memory-design",
-          title: '3D SRAM Memory Design',
-          description: "1 kB SRAM with periphery in Cadence Virtuoso reaching 1 GHz cycle time at TT/LH with ~3800 μm² area and 2 mW; validated against CACTI and integrated into STREAM workload studies.",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/13_project/";
-            },},{id: "projects-ai-inference-accelerator-switch-modeling-qualcomm",
-          title: 'AI Inference Accelerator Switch Modeling (Qualcomm)',
-          description: "Workload-aware switch and cluster simulators for AI inference accelerators with all-to-all interconnects — studied NPU-to-switch attachment, multi-hop routing, congestion, multicast, and throughput saturation, then optimized routing for better link utilization.",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/14_project/";
             },},{id: "projects-fuzz-amp-overdrive-guitar-pedal",
           title: 'Fuzz &amp;amp; Overdrive Guitar Pedal',
           description: "Op-amp overdrive with asymmetrical soft clipping, 3-band EQ tone stack, and a clean-blend low-end preserve, housed in a hand-drilled enclosure.",

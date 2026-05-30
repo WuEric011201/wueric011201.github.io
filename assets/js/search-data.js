@@ -27,7 +27,7 @@ ninja.data = [{
         
           title: "This is my band",
         
-        description: "A short note pointing to the band&#39;s Spotify page.",
+        description: "My former band at Washington University in Saint Louis.",
         section: "Posts",
         handler: () => {
           

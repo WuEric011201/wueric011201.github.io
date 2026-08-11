@@ -38,7 +38,7 @@ ninja.data = [{
         
           title: "2024.12.19 读后感",
         
-        description: "A reading reflection.",
+        description: "A reading reflection on David Foster Wallace&#39;s &quot;This is Water.&quot;",
         section: "Posts",
         handler: () => {
           
@@ -180,11 +180,36 @@ ninja.data = [{
       },{id: "news-co-author-on-foundry-monolithic-3d-unlocks-large-throughput-benefits-accepted-to-iedm-2025-san-francisco",
           title: 'Co-author on Foundry Monolithic 3D Unlocks Large Throughput Benefits… — accepted to IEDM...',
           description: "",
-          section: "News",},{id: "projects-analog-synthesizer-vcv-rack",
+          section: "News",},{id: "projects-opto-electronic-front-end-redesign",
+          title: 'Opto-Electronic Front-End Redesign',
+          description: "Redesign of the photodiode receiver front end for DeepSight Technology&#39;s imaging system — noise, stability, and power, from analytic modeling through topology selection, PCB layout, and production.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/0_project/";
+            },},{id: "projects-analog-synthesizer-vcv-rack",
           title: 'Analog Synthesizer (VCV Rack)',
           description: "Two VCV Rack synth patches — a long-form West Coast drone inspired by Éliane Radigue, and a compact East Coast (VCO → VCF → VCA) patch with separate lead, bass, and chord voices.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/10_project/";
+            },},{id: "projects-accelerating-distributed-digital-ising-machines",
+          title: 'Accelerating Distributed Digital Ising Machines',
+          description: "A cost model that says which of compute, memory, synchronization, or communication binds a distributed Ising machine, calibrated to 4.8% mean error across GPUs, FPGAs, and a fabricated 28 nm ASIC up to a million spins.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/11_project/";
+            },},{id: "projects-a-four-chip-28-nm-p-bit-asic-with-a-streaming-dataflow",
+          title: 'A Four-Chip 28 nm p-bit ASIC with a Streaming Dataflow',
+          description: "Four fabricated 28 nm chips, 6,912 spins each, wired as a mesh. A streaming schedule hides every chip-to-chip transfer behind interior work, holding time per sweep flat as chips are added.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/12_project/";
+            },},{id: "projects-ising-machines-across-fpga-meshes",
+          title: 'Ising Machines Across FPGA Meshes',
+          description: "Digital Ising samplers spread across paired ZCU106 boards and a four-board XEM8320 2x2 mesh, where the boundary exchange over a real cable is measured rather than assumed.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/13_project/";
+            },},{id: "projects-a-calibrated-cost-model-and-its-open-artifact",
+          title: 'A Calibrated Cost Model and Its Open Artifact',
+          description: "One calibration per GPU, then held-out predictions with no refitting: under 10% error across Ada, Blackwell, and Hopper from 100 to a million spins. Code and data are public.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/14_project/";
             },},{id: "projects-fuzz-amp-overdrive-guitar-pedal",
           title: 'Fuzz &amp;amp; Overdrive Guitar Pedal',
           description: "Op-amp overdrive with asymmetrical soft clipping, 3-band EQ tone stack, and a clean-blend low-end preserve, housed in a hand-drilled enclosure.",

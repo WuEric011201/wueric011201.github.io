@@ -192,24 +192,19 @@ ninja.data = [{
               window.location.href = "/projects/10_project/";
             },},{id: "projects-accelerating-distributed-digital-ising-machines",
           title: 'Accelerating Distributed Digital Ising Machines',
-          description: "A cost model that says which of compute, memory, synchronization, or communication binds a distributed Ising machine, calibrated to 4.8% mean error across GPUs, FPGAs, and a fabricated 28 nm ASIC up to a million spins.",
+          description: "A calibrated cost model that says which of compute, memory, synchronization, or communication binds a distributed Ising machine, plus the data placement, scheduling, and streaming techniques it points to. Validated across GPUs, FPGAs, and a 28 nm ASIC.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/11_project/";
-            },},{id: "projects-a-four-chip-28-nm-p-bit-asic-with-a-streaming-dataflow",
-          title: 'A Four-Chip 28 nm p-bit ASIC with a Streaming Dataflow',
+            },},{id: "projects-a-four-chip-28-nm-p-bit-asic-tapeout",
+          title: 'A Four-Chip 28 nm p-bit ASIC Tapeout',
           description: "Four fabricated 28 nm chips, 6,912 spins each, wired as a mesh. A streaming schedule hides every chip-to-chip transfer behind interior work, holding time per sweep flat as chips are added.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/12_project/";
-            },},{id: "projects-ising-machines-across-fpga-meshes",
-          title: 'Ising Machines Across FPGA Meshes',
-          description: "Digital Ising samplers spread across paired ZCU106 boards and a four-board XEM8320 2x2 mesh, where the boundary exchange over a real cable is measured rather than assumed.",
+            },},{id: "projects-pcie-switch-modeling-for-ai-inference-fabrics",
+          title: 'PCIe Switch Modeling for AI Inference Fabrics',
+          description: "A transaction-level model of a PCIe switch, built to find where a fabric actually stalls. Credit-based backpressure, virtual output queues, arbitration policy, and routing, evaluated under realistic traffic instead of at a single operating point.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/13_project/";
-            },},{id: "projects-a-calibrated-cost-model-and-its-open-artifact",
-          title: 'A Calibrated Cost Model and Its Open Artifact',
-          description: "One calibration per GPU, then held-out predictions with no refitting: under 10% error across Ada, Blackwell, and Hopper from 100 to a million spins. Code and data are public.",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/14_project/";
+              window.location.href = "/projects/15_project/";
             },},{id: "projects-fuzz-amp-overdrive-guitar-pedal",
           title: 'Fuzz &amp;amp; Overdrive Guitar Pedal',
           description: "Op-amp overdrive with asymmetrical soft clipping, 3-band EQ tone stack, and a clean-blend low-end preserve, housed in a hand-drilled enclosure.",
@@ -220,11 +215,6 @@ ninja.data = [{
           description: "Stereo 13-band FIR EQ at 50 kHz sample rate, with custom SPI for the LTC1865L ADC and LTC1654 DAC, controlled in C from a MicroBlaze soft-core over AXI4-Lite.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
-            },},{id: "projects-belton-brick-delay-reverb-pedal",
-          title: 'Belton Brick Delay + Reverb Pedal',
-          description: "Hybrid delay-and-reverb pedal built around the PT2399 delay chip and the Belton Brick reverb module.",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/3_project/";
             },},{id: "projects-analog-compression-teensy-multi-effect-processor",
           title: 'Analog Compression + Teensy Multi-effect Processor',
           description: "Analog compression front end combined with Teensy 4.0 DSP — tremolo, delay, and reverb algorithms, line/instrument/mic inputs, and up to 2 W of output to drive a stage cab.",

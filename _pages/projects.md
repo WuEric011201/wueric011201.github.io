@@ -5,7 +5,11 @@ permalink: /projects/
 description:
 nav: true
 nav_order: 3
-display_categories: [engineering, music]
+display_categories: [research, professional, personal]
+category_titles:
+  research: Research
+  professional: Professional Engineering
+  personal: Personal Projects
 horizontal: false
 ---
 
@@ -15,7 +19,7 @@ horizontal: false
   <!-- Display categorized projects -->
   {% for category in page.display_categories %}
   <a id="{{ category }}" href=".#{{ category }}">
-    <h2 class="category">{{ category }}</h2>
+    <h2 class="category">{{ page.category_titles[category] | default: category }}</h2>
   </a>
   {% assign categorized_projects = site.projects | where: "category", category %}
   {% assign sorted_projects = categorized_projects | sort: "importance" %}

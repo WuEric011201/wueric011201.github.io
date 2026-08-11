@@ -1,10 +1,10 @@
 ---
 layout: page
-title: A Four-Chip 28 nm p-bit ASIC with a Streaming Dataflow
+title: A Four-Chip 28 nm p-bit ASIC Tapeout
 description: Four fabricated 28 nm chips, 6,912 spins each, wired as a mesh. A streaming schedule hides every chip-to-chip transfer behind interior work, holding time per sweep flat as chips are added.
 img: assets/img/pbit/photo-quadchip-board.jpg
-importance: 2
-category: research
+importance: 1
+category: realdeal
 related_publications: false
 ---
 

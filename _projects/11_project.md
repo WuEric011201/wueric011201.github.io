@@ -1,10 +1,10 @@
 ---
 layout: page
 title: Accelerating Distributed Digital Ising Machines
-description: A cost model that says which of compute, memory, synchronization, or communication binds a distributed Ising machine, calibrated to 4.8% mean error across GPUs, FPGAs, and a fabricated 28 nm ASIC up to a million spins.
+description: A calibrated cost model that says which of compute, memory, synchronization, or communication binds a distributed Ising machine, plus the data placement, scheduling, and streaming techniques it points to. Validated across GPUs, FPGAs, and a 28 nm ASIC.
 img: assets/img/pbit/fig09b-energy-vs-throughput.png
-importance: 1
-category: research
+importance: 2
+category: realdeal
 related_publications: false
 ---
 
@@ -34,13 +34,35 @@ This work decomposes the time of one sweep into four terms: compute, memory traf
     What one sweep costs. Above, the work of a sweep with a straggling block marked, the block that sets the critical path. Below, the architecture assumed throughout: an array of processing elements under one scheduler, a local memory bank per element, and chip-to-chip interfaces at the edges.
 </div>
 
-## Attacking each term
+The model is the part of this work that transfers. It takes synthesis-time or datasheet constants and predicts the time of a sweep, so a platform can be compared before it is built. On GPUs, one calibration per device covers every held-out block size. The validation set is 18 GPU-and-block configurations at 63 sizes each, spanning the RTX 4070 (Ada), the RTX PRO 6000 (Blackwell), and the H200 (Hopper), from 100 spins to one million. Every configuration stays inside a 10% band.
 
-With the binding term identified, each one gets its own approach.
+<div class="row justify-content-center">
+    <div class="col-sm-8 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/pbit/fig04-cost-model-validation.png" class="img-fluid rounded z-depth-1" zoomable=true alt="Two panels: a measured-versus-modelled sweep-time curve, and a predicted-versus-measured scatter plot with a ten percent error band" %}
+    </div>
+</div>
+<div class="caption">
+    One calibration per GPU, then predictions at held-out block sizes with no refitting. (a) An exemplar sweep on the RTX 6000. (b) Model against measurement for all 18 GPU-and-block configurations at 63 sizes each. The band is plus or minus 10%.
+</div>
 
-**Memory.** Coupling storage format, residency tier, and datapath precision interact. Picking them well is worth up to 4.2x. The sharpest version of this is a residency cliff: at 16,384 spins, one FPGA that spills to DRAM sweeps in 130 us while two FPGAs that keep 8,192 spins each on chip sweep in 0.68 us. Same problem, 191x apart, entirely from where the data lives.
+## Memory
 
-**Synchronization.** Gibbs sampling wants a barrier between color steps. Multi-rate and bounded-staleness schedules trade a little per-run success probability for a much higher sweep rate, cutting time-to-solution by up to 3.16x across max-cut, frustrated-loop, and tile-planted instance families.
+Coupling storage format, residency tier, and datapath precision interact, and picking them well is worth up to 4.2x. Two findings carry beyond this particular kernel: ELLPACK beats CSR by up to 1.6x once the sweep is bandwidth-bound, and marking non-reused loads as evict-first is worth 1.44x past the L2 capacity point.
+
+<div class="row justify-content-center">
+    <div class="col-sm-9 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/pbit/fig03-precision-and-storage-format.png" class="img-fluid rounded z-depth-1" zoomable=true alt="Two panels: a heat map of ground-state success rate over two bit-width axes, and a chart of the CSR to ELLPACK execution-time ratio" %}
+    </div>
+</div>
+<div class="caption">
+    Precision and storage format both matter. (a) Success rate on a 26-spin fully connected instance against integer field width and stored coupling width, which sets the narrowest datapath that still solves the problem. (b) Execution time ratio of CSR to ELLPACK storage on an RTX 4070.
+</div>
+
+The sharpest version of this is a residency cliff. At 16,384 spins, one FPGA that spills its couplings to DRAM sweeps in 130 us, while two FPGAs that keep 8,192 spins each on chip sweep in 0.68 us. Same problem, 191x apart, entirely from where the data lives. The second board is not buying compute, it is buying the right memory tier.
+
+## Synchronization
+
+Gibbs sampling wants a barrier between color steps. Multi-rate and bounded-staleness schedules trade a little per-run success probability for a much higher sweep rate, cutting time-to-solution by up to 3.16x across max-cut, frustrated-loop, and tile-planted instance families.
 
 <div class="row justify-content-center">
     <div class="col-sm-7 mt-3 mt-md-0">
@@ -51,7 +73,9 @@ With the binding term identified, each one gets its own approach.
     How far the barrier can be relaxed. (a) Time-to-solution speedup against synchronization interval for three kings-graph instance families at ten thousand spins. (b) What gating the seam by a factor of sixteen costs in mixing time.
 </div>
 
-**Communication.** A phase-offset streaming dataflow orders the wave slots so that every boundary transfer has the maximum possible slack. When a link meets a latency-transparency criterion, the exchange disappears behind interior computation. Measured gains: 1.25x on a pair of H200 GPUs, 1.74x on a pair of ZCU106 FPGAs, and 2.01x on a four-board XEM8320 2x2 mesh.
+## Communication
+
+A phase-offset streaming dataflow orders the wave slots so that every boundary transfer has the maximum possible slack. When a link meets a latency-transparency criterion, the exchange disappears behind interior computation.
 
 <div class="row justify-content-center">
     <div class="col-sm-10 mt-3 mt-md-0">
@@ -62,9 +86,18 @@ With the binding term identified, each one gets its own approach.
     How the boundary exchange gets hidden. (a) Three schedules for a two-device cut: fully serialized, multi-rate, and bounded staleness. (b) The latency-hiding timeline once the wave order is phase-offset. (c) How the processing-element array maps onto the graph.
 </div>
 
-## Across platforms
+FPGAs are where this gets concrete, because the link is a real cable with a real latency. The implementations run kings-graph and Pegasus-graph samplers in Q6.3 fixed point at 100 MHz, with a three-stage pipeline issuing one spin update per cycle, and a prefetch engine on the DRAM tier cuts per-spin update time from about 335 ns to about 3.5 ns. The distributed builds are a pair of ZCU106 boards over an FMC link and four XEM8320 boards in a 2x2 mesh, each link running at 806.4 Mb/s per direction with 116 ns of latency. Measured gains from the streaming schedule: 1.25x on a pair of H200 GPUs, 1.74x on the ZCU106 pair, and 2.01x on the four-board mesh.
 
-The streaming dataflow also runs on silicon, on a fabricated four-chip 28 nm ASIC that sustains 28.1 Gflips/s at 4.81 pJ per flip.
+<div class="row justify-content-center">
+    <div class="col-sm-9 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/pbit/fig06-two-device-streaming-speedup.png" class="img-fluid rounded z-depth-1" zoomable=true alt="Line chart of speedup against problem size for three multi-device platforms, with horizontal dashed lines at the ideal two-device and four-device limits" %}
+    </div>
+</div>
+<div class="caption">
+    Speedup from a second device, and the extra speedup from streaming, against problem size, on two H200 GPUs, two ZCU106 boards, and four XEM8320 boards. Grey dashed lines mark ideal scaling for two and four devices.
+</div>
+
+## Across platforms
 
 <div class="row justify-content-center">
     <div class="col-sm-6 mt-3 mt-md-0">
@@ -75,17 +108,10 @@ The streaming dataflow also runs on silicon, on a fabricated four-chip 28 nm ASI
     </div>
 </div>
 <div class="caption">
-    Left: time per sweep against problem size for every platform measured, up to a million spins. The FPGA curves jump by orders of magnitude at the point where couplings no longer fit on chip, while the ASIC line stays flat because chip-to-chip transfer is hidden behind interior computation. Right: energy per spin update against sustained throughput, where GPUs, FPGAs, and the ASIC separate by roughly three orders of magnitude in energy at comparable throughput.
+    Left: time per sweep against problem size for every platform measured, up to a million spins. The FPGA curves jump by orders of magnitude where couplings no longer fit on chip, while the ASIC line stays flat because chip-to-chip transfer is hidden behind interior computation. Right: energy per spin update against sustained throughput, where the three platform classes separate by roughly three orders of magnitude in energy at comparable throughput.
 </div>
 
-<div class="row justify-content-center">
-    <div class="col-sm-12 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/pbit/fig08-hardware-fpga-mesh-and-asic-mesh.png" class="img-fluid rounded z-depth-1" zoomable=true alt="Two panels. Left: a diagram of four devices in a two-by-two mesh with coloured spins and cross-links, beside a photograph of four FPGA boards joined by ribbon cables. Right: an annotated photograph of four chips on one board with arrows showing the data path" %}
-    </div>
-</div>
-<div class="caption">
-    The two multi-device platforms. On the left, four XEM8320 FPGA boards wired as a 2x2 mesh, with the logical partition shown alongside. On the right, four 28 nm ASICs on one board, where the edge connectors extend the same dataflow to further boards.
-</div>
+The streaming dataflow also runs on silicon. That work has [its own page]({{ '/projects/12_project/' | relative_url }}).
 
 ## Code
 

@@ -5,11 +5,10 @@ permalink: /projects/
 description:
 nav: true
 nav_order: 3
-display_categories: [research, professional, personal]
+display_categories: [realdeal, personal]
 category_titles:
-  research: Research
-  professional: Professional Engineering
-  personal: Personal Projects
+  realdeal: Real Deal
+  personal: Music + Personal
 horizontal: false
 ---
 

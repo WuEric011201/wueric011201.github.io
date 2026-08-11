@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 330" role="img" aria-label="Three phases of one arbitration round: request, grant, accept">
+  <defs>
+    <marker id="a1" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="currentColor"/>
+    </marker>
+    <marker id="a2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#4f8ab0"/>
+    </marker>
+    <marker id="a3" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#5c9367"/>
+    </marker>
+  </defs>
+  <g font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif" stroke="currentColor" fill="none" stroke-width="1.5">
+
+    <!-- ============ panel 1: request ============ -->
+    <g transform="translate(0,0)">
+      <text x="145" y="30" font-size="15" font-weight="600" fill="currentColor" stroke="none" text-anchor="middle">1. Request</text>
+      <g fill="currentColor" stroke="none" font-size="13">
+        <text x="42" y="80" text-anchor="middle">in A</text>
+        <text x="42" y="150" text-anchor="middle">in B</text>
+        <text x="42" y="220" text-anchor="middle">in C</text>
+        <text x="248" y="80" text-anchor="middle">out 1</text>
+        <text x="248" y="150" text-anchor="middle">out 2</text>
+        <text x="248" y="220" text-anchor="middle">out 3</text>
+      </g>
+      <g stroke-width="1.4">
+        <circle cx="80" cy="75" r="9"/><circle cx="80" cy="145" r="9"/><circle cx="80" cy="215" r="9"/>
+        <circle cx="210" cy="75" r="9"/><circle cx="210" cy="145" r="9"/><circle cx="210" cy="215" r="9"/>
+      </g>
+      <g opacity="0.85">
+        <line x1="90" y1="75" x2="200" y2="75" marker-end="url(#a1)"/>
+        <line x1="90" y1="79" x2="200" y2="141" marker-end="url(#a1)"/>
+        <line x1="90" y1="145" x2="200" y2="79" marker-end="url(#a1)"/>
+        <line x1="90" y1="149" x2="200" y2="211" marker-end="url(#a1)"/>
+        <line x1="90" y1="215" x2="200" y2="149" marker-end="url(#a1)"/>
+      </g>
+      <text x="145" y="270" font-size="12.5" fill="currentColor" stroke="none" text-anchor="middle" opacity="0.8">every input asks each output</text>
+      <text x="145" y="288" font-size="12.5" fill="currentColor" stroke="none" text-anchor="middle" opacity="0.8">it has queued traffic for</text>
+    </g>
+
+    <line x1="298" y1="45" x2="298" y2="250" stroke-width="1" opacity="0.25"/>
+
+    <!-- ============ panel 2: grant ============ -->
+    <g transform="translate(300,0)">
+      <text x="145" y="30" font-size="15" font-weight="600" fill="currentColor" stroke="none" text-anchor="middle">2. Grant</text>
+      <g fill="currentColor" stroke="none" font-size="13">
+        <text x="42" y="80" text-anchor="middle">in A</text>
+        <text x="42" y="150" text-anchor="middle">in B</text>
+        <text x="42" y="220" text-anchor="middle">in C</text>
+        <text x="248" y="80" text-anchor="middle">out 1</text>
+        <text x="248" y="150" text-anchor="middle">out 2</text>
+        <text x="248" y="220" text-anchor="middle">out 3</text>
+      </g>
+      <g stroke-width="1.4">
+        <circle cx="80" cy="75" r="9"/><circle cx="80" cy="145" r="9"/><circle cx="80" cy="215" r="9"/>
+        <circle cx="210" cy="75" r="9"/><circle cx="210" cy="145" r="9"/><circle cx="210" cy="215" r="9"/>
+      </g>
+      <g stroke="#4f8ab0" stroke-width="2">
+        <line x1="200" y1="75" x2="90" y2="75" marker-end="url(#a2)"/>
+        <line x1="200" y1="141" x2="90" y2="79" marker-end="url(#a2)"/>
+        <line x1="200" y1="211" x2="90" y2="149" marker-end="url(#a2)"/>
+      </g>
+      <text x="145" y="270" font-size="12.5" fill="currentColor" stroke="none" text-anchor="middle" opacity="0.8">each output grants one requester,</text>
+      <text x="145" y="288" font-size="12.5" fill="currentColor" stroke="none" text-anchor="middle" opacity="0.8">chosen in pointer order</text>
+    </g>
+
+    <line x1="598" y1="45" x2="598" y2="250" stroke-width="1" opacity="0.25"/>
+
+    <!-- ============ panel 3: accept ============ -->
+    <g transform="translate(600,0)">
+      <text x="145" y="30" font-size="15" font-weight="600" fill="currentColor" stroke="none" text-anchor="middle">3. Accept</text>
+      <g fill="currentColor" stroke="none" font-size="13">
+        <text x="42" y="80" text-anchor="middle">in A</text>
+        <text x="42" y="150" text-anchor="middle">in B</text>
+        <text x="42" y="220" text-anchor="middle">in C</text>
+        <text x="248" y="80" text-anchor="middle">out 1</text>
+        <text x="248" y="150" text-anchor="middle">out 2</text>
+        <text x="248" y="220" text-anchor="middle">out 3</text>
+      </g>
+      <g stroke-width="1.4">
+        <circle cx="80" cy="75" r="9"/><circle cx="80" cy="145" r="9"/><circle cx="80" cy="215" r="9"/>
+        <circle cx="210" cy="75" r="9"/><circle cx="210" cy="145" r="9"/><circle cx="210" cy="215" r="9"/>
+      </g>
+      <g stroke="#5c9367" stroke-width="2.4">
+        <line x1="90" y1="75" x2="200" y2="75" marker-end="url(#a3)"/>
+        <line x1="90" y1="149" x2="200" y2="211" marker-end="url(#a3)"/>
+      </g>
+      <g stroke="currentColor" stroke-width="1.3" stroke-dasharray="4 4" opacity="0.35">
+        <line x1="200" y1="141" x2="90" y2="79"/>
+      </g>
+      <text x="145" y="270" font-size="12.5" fill="currentColor" stroke="none" text-anchor="middle" opacity="0.8">each input accepts one grant; the</text>
+      <text x="145" y="288" font-size="12.5" fill="currentColor" stroke="none" text-anchor="middle" opacity="0.8">rest are dropped and retried</text>
+    </g>
+
+    <text x="450" y="318" font-size="12.5" fill="currentColor" stroke="none" text-anchor="middle" opacity="0.75">Pointers advance only on a successful match, which desynchronizes them and stops the arbiter locking into a repeating conflict.</text>
+  </g>
+</svg>

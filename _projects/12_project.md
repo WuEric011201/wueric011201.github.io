@@ -67,4 +67,4 @@ At that problem size on the same graph, the four-chip array is 32.4x faster than
     Energy per spin update against sustained throughput. Each point carries its accounting range as a vertical bar, and the diagonals are constant power. GPUs, FPGAs, and the ASIC separate by roughly three orders of magnitude in energy at comparable throughput.
 </div>
 
-*Figures from "Accelerating Distributed Digital Ising Machines" (Wu et al., 2026).*
+_Figures from "Accelerating Distributed Digital Ising Machines" (Wu et al., 2026)._

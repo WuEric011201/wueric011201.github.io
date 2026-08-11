@@ -84,8 +84,8 @@ layout: page
 title: My new project
 description: One-line summary shown on the cards.
 img: assets/img/your-photo.jpg
-importance: 1            # lower = shown first within the category
-category: engineering    # must match an entry in _pages/projects.md
+importance: 1 # lower = shown first within the category
+category: engineering # must match an entry in _pages/projects.md
 ---
 ```
 

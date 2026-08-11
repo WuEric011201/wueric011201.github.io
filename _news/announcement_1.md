@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Co-author on *Foundry Monolithic 3D Unlocks Large Throughput Benefits…* — accepted to **IEDM 2025**, San Francisco.
+Co-author on _Foundry Monolithic 3D Unlocks Large Throughput Benefits…_ — accepted to **IEDM 2025**, San Francisco.

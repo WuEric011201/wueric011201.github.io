@@ -117,4 +117,4 @@ The streaming dataflow also runs on silicon. That work has [its own page]({{ '/p
 
 The calibration scripts, the CUDA kernel, and the model are published under MIT at [github.com/WuEric011201/distributed-ising-machines](https://github.com/WuEric011201/distributed-ising-machines).
 
-*Figures from "Accelerating Distributed Digital Ising Machines" (Wu et al., 2026).*
+_Figures from "Accelerating Distributed Digital Ising Machines" (Wu et al., 2026)._

@@ -182,7 +182,7 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "projects-opto-electronic-front-end-redesign",
           title: 'Opto-Electronic Front-End Redesign',
-          description: "Redesign of the photodiode receiver front end for DeepSight Technology&#39;s imaging system — noise, stability, and power, from analytic modeling through topology selection, PCB layout, and production.",
+          description: "Redesigned the photodiode receiver board for DeepSight&#39;s imaging system. Half the power, a third of the input-referred noise, and a 20 to 30 °C drop in board temperature.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/0_project/";
             },},{id: "projects-analog-synthesizer-vcv-rack",
@@ -192,17 +192,17 @@ ninja.data = [{
               window.location.href = "/projects/10_project/";
             },},{id: "projects-accelerating-distributed-digital-ising-machines",
           title: 'Accelerating Distributed Digital Ising Machines',
-          description: "A calibrated cost model that says which of compute, memory, synchronization, or communication binds a distributed Ising machine, plus the data placement, scheduling, and streaming techniques it points to. Validated across GPUs, FPGAs, and a 28 nm ASIC.",
+          description: "Data placement, relaxed synchronization, and a streaming dataflow for Ising machines spread across many devices. Up to 4.2x from placement, 3.16x from scheduling, and 2.01x from streaming, measured on GPUs, FPGAs, and a 28 nm ASIC.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/11_project/";
             },},{id: "projects-a-four-chip-28-nm-p-bit-asic-tapeout",
           title: 'A Four-Chip 28 nm p-bit ASIC Tapeout',
-          description: "Four fabricated 28 nm chips, 6,912 spins each, wired as a mesh. A streaming schedule hides every chip-to-chip transfer behind interior work, holding time per sweep flat as chips are added.",
+          description: "Four fabricated 28 nm chips, 6,912 spins each, wired as a mesh. Time per sweep stays flat as chips are added, and the array runs 32.4x faster than an H200 at three orders of magnitude less energy.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/12_project/";
             },},{id: "projects-pcie-switch-modeling-for-ai-inference-fabrics",
           title: 'PCIe Switch Modeling for AI Inference Fabrics',
-          description: "A transaction-level model of a PCIe switch, built to find where a fabric actually stalls. Credit-based backpressure, virtual output queues, arbitration policy, and routing, evaluated under realistic traffic instead of at a single operating point.",
+          description: "A transaction-level model of a PCIe switch, built to find where an interconnect fabric actually stalls. Arbitration and queueing choices moved achieved throughput from 36% to 88% of theoretical peak.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/15_project/";
             },},{id: "projects-fuzz-amp-overdrive-guitar-pedal",

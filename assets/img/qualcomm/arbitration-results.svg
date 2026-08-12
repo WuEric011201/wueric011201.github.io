@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 300" role="img" aria-label="Horizontal bar chart of achieved throughput as a percentage of theoretical peak for four queueing and arbitration policies">
+  <g font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif">
+
+    <!-- gridlines -->
+    <g stroke="currentColor" stroke-width="1" opacity="0.14">
+      <line x1="300" y1="48" x2="300" y2="248"/>
+      <line x1="380" y1="48" x2="380" y2="248"/>
+      <line x1="460" y1="48" x2="460" y2="248"/>
+      <line x1="540" y1="48" x2="540" y2="248"/>
+      <line x1="620" y1="48" x2="620" y2="248"/>
+      <line x1="700" y1="48" x2="700" y2="248"/>
+    </g>
+    <line x1="300" y1="248" x2="700" y2="248" stroke="currentColor" stroke-width="1.2" opacity="0.4"/>
+
+    <!-- bars: 300px = 0%, 700px = 100%  => 4px per percent -->
+    <g>
+      <rect x="300" y="58" width="144" height="26" rx="4" fill="#7fb3d0"/>
+      <rect x="300" y="105" width="252" height="26" rx="4" fill="#7fb3d0"/>
+      <rect x="300" y="152" width="324" height="26" rx="4" fill="#7fb3d0"/>
+      <rect x="300" y="199" width="352" height="26" rx="4" fill="#2f6d96"/>
+    </g>
+
+    <!-- policy labels -->
+    <g fill="currentColor" font-size="13.5" text-anchor="end">
+      <text x="286" y="76">Multiple VOQ + round robin</text>
+      <text x="286" y="123">Single VOQ + round robin</text>
+      <text x="286" y="170">Multiple VOQ + iterative match</text>
+      <text x="286" y="217" font-weight="600">Multiple VOQ + tuned match</text>
+    </g>
+
+    <!-- value labels -->
+    <g fill="currentColor" font-size="13.5" font-weight="600">
+      <text x="456" y="76">36%</text>
+      <text x="564" y="123">63%</text>
+      <text x="636" y="170">81%</text>
+      <text x="664" y="217">88%</text>
+    </g>
+
+    <!-- x axis -->
+    <g fill="currentColor" font-size="12" text-anchor="middle" opacity="0.75">
+      <text x="300" y="268">0</text>
+      <text x="380" y="268">20</text>
+      <text x="460" y="268">40</text>
+      <text x="540" y="268">60</text>
+      <text x="620" y="268">80</text>
+      <text x="700" y="268">100</text>
+    </g>
+    <text x="500" y="290" font-size="12.5" fill="currentColor" text-anchor="middle" opacity="0.75">achieved throughput, percent of theoretical peak</text>
+
+    <text x="14" y="28" font-size="15" font-weight="600" fill="currentColor">Queueing and arbitration set the throughput ceiling</text>
+  </g>
+</svg>

@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Opto-Electronic Front-End Redesign
-description: Redesigned the photodiode receiver board for DeepSight's imaging system. Half the power, a third of the input-referred noise, and a 20 to 30 °C drop in board temperature.
+title: Photodiode Front-End Redesign
+description: 60% less power and 60% less noise on DeepSight's imaging receiver, and a board 20–30 °C cooler.
 img: assets/img/deepsight/layout-2-1-3d.png
 importance: 5
 category: research
@@ -25,16 +25,16 @@ I rebuilt the front end that turns photodiode current into the data the imaging 
 
 <div class="row text-center mt-4 mb-2">
   <div class="col-sm-4 mb-3">
-    <h2 class="mb-0">52%</h2>
-    <p class="text-muted mb-0">less power<br><small>290 mW → 139 mW</small></p>
+    <h2 class="mb-0">60%</h2>
+    <p class="text-muted mb-0">less power</p>
   </div>
   <div class="col-sm-4 mb-3">
-    <h2 class="mb-0">70%</h2>
-    <p class="text-muted mb-0">less input-referred noise<br><small>40.8 nA → 12.4 nA</small></p>
+    <h2 class="mb-0">60%</h2>
+    <p class="text-muted mb-0">less input-referred noise</p>
   </div>
   <div class="col-sm-4 mb-3">
     <h2 class="mb-0">20–30 °C</h2>
-    <p class="text-muted mb-0">cooler board<br><small>output noise 1469 µV → 60.6 µV</small></p>
+    <p class="text-muted mb-0">cooler board</p>
   </div>
 </div>
 

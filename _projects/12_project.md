@@ -1,7 +1,7 @@
 ---
 layout: page
-title: A Four-Chip 28 nm p-bit ASIC Tapeout
-description: Four fabricated 28 nm chips, 6,912 spins each, wired as a mesh. Time per sweep stays flat as chips are added, and the array runs 32.4x faster than an H200 at three orders of magnitude less energy.
+title: 28 nm p-bit Tapeout
+description: Four fabricated chips, 27,648 spins, 32.4x faster than an H200.
 img: assets/img/pbit/photo-quadchip-board.jpg
 importance: 1
 category: research

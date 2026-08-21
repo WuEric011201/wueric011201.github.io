@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Analog Compression + Teensy Multi-effect Processor
-description: Analog compression front end combined with Teensy 4.0 DSP — tremolo, delay, and reverb algorithms, line/instrument/mic inputs, and up to 2 W of output to drive a stage cab.
+title: Teensy Multi-effect
+description: Analog compression into Teensy 4.0 DSP — tremolo, delay, reverb, 2 W out.
 img: assets/img/teensy-multieffect/cover.jpg
 importance: 3
 category: personal

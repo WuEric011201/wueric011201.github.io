@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Monolithic 3D ReRAM + Carbon Nanotube Memory
-description: A 1 kb ReRAM array with CNT periphery, taped out with back-end-of-line ReRAM and carbon nanotube transistors, then brought up on the bench — FORM, SET and RESET validated in-array.
+title: Monolithic 3D Memory
+description: A 1 kb ReRAM and carbon nanotube array, taped out and brought up on the bench.
 img: assets/img/monolithic3d/test-board.jpg
 importance: 3
 category: research

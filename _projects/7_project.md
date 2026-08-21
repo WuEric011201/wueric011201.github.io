@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Music DEMO Dump
-description: An evolving collection of demo tracks, sketches, and works-in-progress.
+title: Demo Dump
+description: Sketches and works-in-progress.
 img: assets/img/demo-dump/cover.jpg
 importance: 10
 category: personal

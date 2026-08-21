@@ -44,6 +44,16 @@ Always write an `alt` — it is what screen readers and search engines read.
 
 ```bash
 cd ~/Code/portfolio/WuEric011201
+bin/publish.sh "short description of the change"
+```
+
+That is the whole thing. The script discards local `Gemfile.lock` churn, refreshes
+these symlinks, runs the Prettier version this repo pins, then commits and pushes.
+Leave the message off and it opens your editor instead.
+
+The equivalent by hand, if you would rather:
+
+```bash
 git checkout Gemfile.lock      # local builds add macOS entries CI does not want
 npx prettier . --write         # the repo pins Prettier 3.1.1; CI fails without this
 git add -A
@@ -51,7 +61,7 @@ git commit -m "short description of the change"
 git push
 ```
 
-Then watch <https://github.com/WuEric011201/WuEric011201.github.io/actions>.
+Then watch <https://github.com/WuEric011201/wueric011201.github.io/actions>.
 The site is live a minute or two after "Deploy site" turns green.
 
 ## Regenerating this folder
@@ -66,18 +76,18 @@ python3 bin/relink-content.py
 
 | Project | Folder | Real file |
 | --- | --- | --- |
-| 13-Band Equalizer on FPGA + MicroBlaze | `personal-01-13-band-equalizer-on-fpga-microblaze` | `_projects/2_project.md` |
-| Fuzz & Overdrive Pedals | `personal-02-fuzz-overdrive-pedals` | `_projects/1_project.md` |
-| Analog Compression + Teensy Multi-effect Processor | `personal-03-analog-compression-teensy-multi-effect-processor` | `_projects/4_project.md` |
+| 13-Band FPGA Equalizer | `personal-01-13-band-fpga-equalizer` | `_projects/2_project.md` |
+| Guitar Pedals | `personal-02-guitar-pedals` | `_projects/1_project.md` |
+| Teensy Multi-effect | `personal-03-teensy-multi-effect` | `_projects/4_project.md` |
 | Woodshop | `personal-04-woodshop` | `_projects/16_project.md` |
-| 4 Complete Songs (Fall 2022) | `personal-06-4-complete-songs-fall-2022` | `_projects/6_project.md` |
-| Synth Metal: WAIT | `personal-07-synth-metal-wait` | `_projects/9_project.md` |
-| Analog Synthesizer (VCV Rack) | `personal-08-analog-synthesizer-vcv-rack` | `_projects/10_project.md` |
-| Frequency Modulation Synthesis | `personal-09-frequency-modulation-synthesis` | `_projects/8_project.md` |
-| Music DEMO Dump | `personal-10-music-demo-dump` | `_projects/7_project.md` |
-| A Four-Chip 28 nm p-bit ASIC Tapeout | `research-01-a-four-chip-28-nm-p-bit-asic-tapeout` | `_projects/12_project.md` |
-| Accelerating Distributed Digital Ising Machines | `research-02-accelerating-distributed-digital-ising-machines` | `_projects/11_project.md` |
-| Monolithic 3D ReRAM + Carbon Nanotube Memory | `research-03-monolithic-3d-reram-carbon-nanotube-memory` | `_projects/14_project.md` |
-| PCIe Switch Modeling for AI Inference Fabrics | `research-04-pcie-switch-modeling-for-ai-inference-fabrics` | `_projects/15_project.md` |
-| Opto-Electronic Front-End Redesign | `research-05-opto-electronic-front-end-redesign` | `_projects/0_project.md` |
-| A Full-Custom SRAM Macro in Virtuoso | `research-06-a-full-custom-sram-macro-in-virtuoso` | `_projects/13_project.md` |
+| Four Songs | `personal-06-four-songs` | `_projects/6_project.md` |
+| WAIT (Synth Metal) | `personal-07-wait-synth-metal` | `_projects/9_project.md` |
+| VCV Rack Synths | `personal-08-vcv-rack-synths` | `_projects/10_project.md` |
+| FM Synthesis | `personal-09-fm-synthesis` | `_projects/8_project.md` |
+| Demo Dump | `personal-10-demo-dump` | `_projects/7_project.md` |
+| 28 nm p-bit Tapeout | `research-01-28-nm-p-bit-tapeout` | `_projects/12_project.md` |
+| Distributed Ising Machines | `research-02-distributed-ising-machines` | `_projects/11_project.md` |
+| Monolithic 3D Memory | `research-03-monolithic-3d-memory` | `_projects/14_project.md` |
+| PCIe Switch Modeling | `research-04-pcie-switch-modeling` | `_projects/15_project.md` |
+| Photodiode Front-End Redesign | `research-05-photodiode-front-end-redesign` | `_projects/0_project.md` |
+| Custom SRAM Macro | `research-06-custom-sram-macro` | `_projects/13_project.md` |

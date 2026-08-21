@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Frequency Modulation Synthesis
-description: FM synthesis experiments using Dexed alongside guitar.
+title: FM Synthesis
+description: Dexed experiments alongside guitar.
 img: assets/img/fm-synthesis/cover.png
 importance: 9
 category: personal

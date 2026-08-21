@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "Synth Metal: WAIT"
-description: A four-minute synth-metal instrumental built with Dexed, Vital, and VCV Rack — influenced by Slipknot and German industrial metal.
+title: WAIT (Synth Metal)
+description: A four-minute instrumental in Dexed, Vital and VCV Rack.
 img: assets/img/synth-metal-wait/cover.jpg
 importance: 7
 category: personal

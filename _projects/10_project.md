@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Analog Synthesizer (VCV Rack)
-description: Two VCV Rack synth patches — a long-form West Coast drone inspired by Éliane Radigue, and a compact East Coast (VCO → VCF → VCA) patch with separate lead, bass, and chord voices.
+title: VCV Rack Synths
+description: A West Coast drone and a compact East Coast patch.
 img: assets/img/vcv-synth/cover.png
 importance: 8
 category: personal

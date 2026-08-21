@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Fuzz & Overdrive Pedals
-description: Two hand-built guitar pedals — an op-amp overdrive with asymmetrical soft clipping, a 3-band tone stack and a clean blend, and a standalone overdrive with a harshness switch — both in enclosures drilled by hand.
-img: assets/img/fuzz-overdrive/cover.jpg
+title: Guitar Pedals
+description: Two hand-built drive pedals, in enclosures drilled from scratch.
+img: assets/img/fuzz-overdrive/overdrive-02.jpg
 importance: 2
 category: personal
 related_publications: false

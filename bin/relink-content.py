@@ -125,6 +125,16 @@ Always write an `alt` — it is what screen readers and search engines read.
 
 ```bash
 cd ~/Code/portfolio/WuEric011201
+bin/publish.sh "short description of the change"
+```
+
+That is the whole thing. The script discards local `Gemfile.lock` churn, refreshes
+these symlinks, runs the Prettier version this repo pins, then commits and pushes.
+Leave the message off and it opens your editor instead.
+
+The equivalent by hand, if you would rather:
+
+```bash
 git checkout Gemfile.lock      # local builds add macOS entries CI does not want
 npx prettier . --write         # the repo pins Prettier 3.1.1; CI fails without this
 git add -A
@@ -132,7 +142,7 @@ git commit -m "short description of the change"
 git push
 ```
 
-Then watch <https://github.com/WuEric011201/WuEric011201.github.io/actions>.
+Then watch <https://github.com/WuEric011201/wueric011201.github.io/actions>.
 The site is live a minute or two after "Deploy site" turns green.
 
 ## Regenerating this folder

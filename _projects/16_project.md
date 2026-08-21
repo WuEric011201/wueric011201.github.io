@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Woodshop
-description: A walnut keepsake box, a folding pine stool, and a couple of plywood pieces — projects where the tolerances are in thirty-seconds of an inch and nothing can be re-spun.
+description: A walnut box, a folding stool, and some plywood.
 img: assets/img/woodshop/box-finished.jpg
 importance: 4
 category: personal

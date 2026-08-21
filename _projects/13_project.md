@@ -1,7 +1,7 @@
 ---
 layout: page
-title: A Full-Custom SRAM Macro in Virtuoso
-description: A 4 kb SRAM macro drawn from the bitcell up — replica wordline and bitline timing, 25 FO4 read cycle at 1.19 mW, DRC and LVS clean, and stable across six process corners.
+title: Custom SRAM Macro
+description: 4 kb drawn from the bitcell up. 25 FO4 read at 1.19 mW, DRC and LVS clean.
 img: assets/img/sram-macro/drc-clean.png
 importance: 6
 category: research

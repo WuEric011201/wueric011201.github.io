@@ -5,9 +5,9 @@ permalink: /projects/
 description:
 nav: true
 nav_order: 3
-display_categories: [realdeal, personal]
+display_categories: [research, personal]
 category_titles:
-  realdeal: Real Deal
+  research: Research + Industry
   personal: Music + Personal
 horizontal: false
 ---

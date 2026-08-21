@@ -2,7 +2,7 @@
 layout: page
 title: Frequency Modulation Synthesis
 description: FM synthesis experiments using Dexed alongside guitar.
-img: assets/img/wp_8_fm.png
+img: assets/img/fm-synthesis/cover.png
 importance: 9
 category: personal
 related_publications: false
@@ -12,7 +12,7 @@ Experiments with **FM synthesis** using [Dexed](https://asb2m10.github.io/dexed/
 
 <div class="row justify-content-center">
     <div class="col-sm-10 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/projects/fm-synthesis-01.png" class="img-fluid rounded z-depth-1" zoomable=true alt="Dexed FM synthesizer interface showing all six operators and the algorithm matrix" %}
+        {% include figure.liquid path="assets/img/fm-synthesis/01.png" class="img-fluid rounded z-depth-1" zoomable=true alt="Dexed FM synthesizer interface showing all six operators and the algorithm matrix" %}
     </div>
 </div>
 <div class="caption">

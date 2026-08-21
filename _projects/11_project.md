@@ -4,7 +4,7 @@ title: Accelerating Distributed Digital Ising Machines
 description: Data placement, relaxed synchronization, and a streaming dataflow for Ising machines spread across many devices. Up to 4.2x from placement, 3.16x from scheduling, and 2.01x from streaming, measured on GPUs, FPGAs, and a 28 nm ASIC.
 img: assets/img/pbit/fig08-hardware-fpga-mesh-and-asic-mesh.png
 importance: 2
-category: realdeal
+category: research
 related_publications: false
 ---
 

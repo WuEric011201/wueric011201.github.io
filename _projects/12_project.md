@@ -4,7 +4,7 @@ title: A Four-Chip 28 nm p-bit ASIC Tapeout
 description: Four fabricated 28 nm chips, 6,912 spins each, wired as a mesh. Time per sweep stays flat as chips are added, and the array runs 32.4x faster than an H200 at three orders of magnitude less energy.
 img: assets/img/pbit/photo-quadchip-board.jpg
 importance: 1
-category: realdeal
+category: research
 related_publications: false
 ---
 
@@ -38,6 +38,15 @@ A probabilistic-bit array in TSMC 28 nm, 1.5 mm2 of die, 6,912 spins per chip on
     <h2 class="mb-0">32.4x</h2>
     <p class="text-muted mb-0">faster than an H200<br><small>same graph, 27,648 spins</small></p>
   </div>
+</div>
+
+<div class="row justify-content-center">
+    <div class="col-sm-9 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/pbit/chip-layout.jpg" class="img-fluid rounded z-depth-1" zoomable=true alt="Cadence Virtuoso showing the full-chip layout: a dense core of repeated array blocks in blue and magenta, ringed by bond pads on all four sides" %}
+    </div>
+</div>
+<div class="caption">
+    The full-chip layout on the way to sign-off — the spin array blocks filling the core, wrapped in the pad ring.
 </div>
 
 ## Why four chips

@@ -2,7 +2,7 @@
 layout: page
 title: 13-Band Equalizer on FPGA + MicroBlaze
 description: Stereo 13-band FIR EQ at 50 kHz sample rate, with custom SPI for the LTC1865L ADC and LTC1654 DAC, controlled in C from a MicroBlaze soft-core over AXI4-Lite.
-img: assets/img/wp_2_eq.jpg
+img: assets/img/fpga-eq/cover.jpg
 importance: 1
 category: personal
 related_publications: false
@@ -19,7 +19,7 @@ A real-time 13-band graphic equalizer implemented in HDL on an FPGA, with a Micr
 
 <div class="row justify-content-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/projects/fpga-eq-01.jpg" class="img-fluid rounded z-depth-1" zoomable=true alt="Nexys 4 DDR board with ADC and DAC breakouts wired to the Pmod headers" %}
+        {% include figure.liquid path="assets/img/fpga-eq/01.jpg" class="img-fluid rounded z-depth-1" zoomable=true alt="Nexys 4 DDR board with ADC and DAC breakouts wired to the Pmod headers" %}
     </div>
 </div>
 <div class="caption">
@@ -30,7 +30,7 @@ A real-time 13-band graphic equalizer implemented in HDL on an FPGA, with a Micr
 
 <div class="row justify-content-center">
     <div class="col-sm-10 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/projects/fpga-eq-02.jpg" class="img-fluid rounded z-depth-1" zoomable=true alt="Block diagram of the ADC, DAC, FPGA and MicroBlaze signal path" %}
+        {% include figure.liquid path="assets/img/fpga-eq/02.jpg" class="img-fluid rounded z-depth-1" zoomable=true alt="Block diagram of the ADC, DAC, FPGA and MicroBlaze signal path" %}
     </div>
 </div>
 <div class="caption">
@@ -41,10 +41,10 @@ A real-time 13-band graphic equalizer implemented in HDL on an FPGA, with a Micr
 
 <div class="row justify-content-center">
     <div class="col-sm-6 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/projects/fpga-eq-03.jpg" class="img-fluid rounded z-depth-1" zoomable=true alt="State machine diagram for the SPI controller" %}
+        {% include figure.liquid path="assets/img/fpga-eq/03.jpg" class="img-fluid rounded z-depth-1" zoomable=true alt="State machine diagram for the SPI controller" %}
     </div>
     <div class="col-sm-6 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/projects/fpga-eq-04.jpg" class="img-fluid rounded z-depth-1" zoomable=true alt="State machine diagram for the AXI4-Lite FIR filter" %}
+        {% include figure.liquid path="assets/img/fpga-eq/04.jpg" class="img-fluid rounded z-depth-1" zoomable=true alt="State machine diagram for the AXI4-Lite FIR filter" %}
     </div>
 </div>
 <div class="caption">
@@ -53,7 +53,7 @@ A real-time 13-band graphic equalizer implemented in HDL on an FPGA, with a Micr
 
 <div class="row justify-content-center">
     <div class="col-sm-9 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/projects/fpga-eq-05.jpg" class="img-fluid rounded z-depth-1" zoomable=true alt="Bubble diagram of the AXI4-Lite FIR datapath" %}
+        {% include figure.liquid path="assets/img/fpga-eq/05.jpg" class="img-fluid rounded z-depth-1" zoomable=true alt="Bubble diagram of the AXI4-Lite FIR datapath" %}
     </div>
 </div>
 <div class="caption">

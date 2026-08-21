@@ -2,7 +2,7 @@
 layout: page
 title: Analog Synthesizer (VCV Rack)
 description: Two VCV Rack synth patches — a long-form West Coast drone inspired by Éliane Radigue, and a compact East Coast (VCO → VCF → VCA) patch with separate lead, bass, and chord voices.
-img: assets/img/wp_10_vcv.png
+img: assets/img/vcv-synth/cover.png
 importance: 8
 category: personal
 related_publications: false
@@ -16,7 +16,7 @@ Aimed at something **Éliane Radigue**-like — constantly evolving but over a s
 
 <div class="row justify-content-center">
     <div class="col-sm-9 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/projects/vcv-synth-01.jpg" class="img-fluid rounded z-depth-1" zoomable=true alt="Hand-drawn block diagram of the West Coast patch signal routing" %}
+        {% include figure.liquid path="assets/img/vcv-synth/01.jpg" class="img-fluid rounded z-depth-1" zoomable=true alt="Hand-drawn block diagram of the West Coast patch signal routing" %}
     </div>
 </div>
 <div class="caption">
@@ -41,10 +41,10 @@ Smaller patch from September 2022, following the **VCV Cookbook**: classic **VCO
 
 <div class="row justify-content-center">
     <div class="col-sm-6 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/projects/vcv-synth-02.png" class="img-fluid rounded z-depth-1" zoomable=true alt="VCV Rack patch with dual VCOs, filter, VCA mix and ADSR envelopes" %}
+        {% include figure.liquid path="assets/img/vcv-synth/02.png" class="img-fluid rounded z-depth-1" zoomable=true alt="VCV Rack patch with dual VCOs, filter, VCA mix and ADSR envelopes" %}
     </div>
     <div class="col-sm-6 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/projects/vcv-synth-03.png" class="img-fluid rounded z-depth-1" zoomable=true alt="Larger VCV Rack patch with multiple filters and envelopes" %}
+        {% include figure.liquid path="assets/img/vcv-synth/03.png" class="img-fluid rounded z-depth-1" zoomable=true alt="Larger VCV Rack patch with multiple filters and envelopes" %}
     </div>
 </div>
 <div class="caption">
@@ -53,7 +53,7 @@ Smaller patch from September 2022, following the **VCV Cookbook**: classic **VCO
 
 <div class="row justify-content-center">
     <div class="col-sm-10 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/projects/vcv-synth-04.png" class="img-fluid rounded z-depth-1" zoomable=true alt="VCV Rack lead patch with an inline NOTES module documenting the signal chain" %}
+        {% include figure.liquid path="assets/img/vcv-synth/04.png" class="img-fluid rounded z-depth-1" zoomable=true alt="VCV Rack lead patch with an inline NOTES module documenting the signal chain" %}
     </div>
 </div>
 <div class="caption">

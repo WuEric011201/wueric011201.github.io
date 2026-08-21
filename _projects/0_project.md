@@ -3,8 +3,8 @@ layout: page
 title: Opto-Electronic Front-End Redesign
 description: Redesigned the photodiode receiver board for DeepSight's imaging system. Half the power, a third of the input-referred noise, and a 20 to 30 °C drop in board temperature.
 img: assets/img/deepsight/layout-2-1-3d.png
-importance: 4
-category: realdeal
+importance: 5
+category: research
 related_publications: false
 ---
 

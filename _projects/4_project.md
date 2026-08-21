@@ -2,7 +2,7 @@
 layout: page
 title: Analog Compression + Teensy Multi-effect Processor
 description: Analog compression front end combined with Teensy 4.0 DSP — tremolo, delay, and reverb algorithms, line/instrument/mic inputs, and up to 2 W of output to drive a stage cab.
-img: assets/img/wp_4_teensy.jpg
+img: assets/img/teensy-multieffect/cover.jpg
 importance: 3
 category: personal
 related_publications: false
@@ -30,10 +30,10 @@ Custom **tremolo**, **delay**, and **reverb** algorithms written for the Teensy 
 
 <div class="row justify-content-center">
     <div class="col-sm-6 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/projects/teensy-multieffect-01.jpg" class="img-fluid rounded z-depth-1" zoomable=true alt="3D-printed enclosure with eleven potentiometer shafts protruding" %}
+        {% include figure.liquid path="assets/img/teensy-multieffect/01.jpg" class="img-fluid rounded z-depth-1" zoomable=true alt="3D-printed enclosure with eleven potentiometer shafts protruding" %}
     </div>
     <div class="col-sm-6 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/projects/teensy-multieffect-02.jpg" class="img-fluid rounded z-depth-1" zoomable=true alt="Populated main PCB with potentiometers and the Teensy 4.0" %}
+        {% include figure.liquid path="assets/img/teensy-multieffect/02.jpg" class="img-fluid rounded z-depth-1" zoomable=true alt="Populated main PCB with potentiometers and the Teensy 4.0" %}
     </div>
 </div>
 <div class="caption">
@@ -42,10 +42,10 @@ Custom **tremolo**, **delay**, and **reverb** algorithms written for the Teensy 
 
 <div class="row justify-content-center">
     <div class="col-sm-6 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/projects/teensy-multieffect-03.jpg" class="img-fluid rounded z-depth-1" zoomable=true alt="Reverse of the board showing SMD sections, Eurorack in and external send jacks" %}
+        {% include figure.liquid path="assets/img/teensy-multieffect/03.jpg" class="img-fluid rounded z-depth-1" zoomable=true alt="Reverse of the board showing SMD sections, Eurorack in and external send jacks" %}
     </div>
     <div class="col-sm-6 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/projects/teensy-multieffect-04.jpg" class="img-fluid rounded z-depth-1" zoomable=true alt="Breadboard prototype of the analog stages" %}
+        {% include figure.liquid path="assets/img/teensy-multieffect/04.jpg" class="img-fluid rounded z-depth-1" zoomable=true alt="Breadboard prototype of the analog stages" %}
     </div>
 </div>
 <div class="caption">
@@ -54,7 +54,7 @@ Custom **tremolo**, **delay**, and **reverb** algorithms written for the Teensy 
 
 <div class="row justify-content-center">
     <div class="col-sm-7 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/projects/teensy-multieffect-05.png" class="img-fluid rounded z-depth-1" zoomable=true alt="3D render of the custom 3PDT switching breakout board" %}
+        {% include figure.liquid path="assets/img/teensy-multieffect/05.png" class="img-fluid rounded z-depth-1" zoomable=true alt="3D render of the custom 3PDT switching breakout board" %}
     </div>
 </div>
 <div class="caption">
@@ -65,7 +65,7 @@ Custom **tremolo**, **delay**, and **reverb** algorithms written for the Teensy 
 
 <div class="row justify-content-center">
     <div class="col-sm-10 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/projects/teensy-multieffect-06.png" class="img-fluid rounded z-depth-1" zoomable=true alt="Top-level Altium schematic showing signal path, effect loop and Teensy" %}
+        {% include figure.liquid path="assets/img/teensy-multieffect/06.png" class="img-fluid rounded z-depth-1" zoomable=true alt="Top-level Altium schematic showing signal path, effect loop and Teensy" %}
     </div>
 </div>
 <div class="caption">
@@ -76,10 +76,10 @@ Custom **tremolo**, **delay**, and **reverb** algorithms written for the Teensy 
 
 <div class="row justify-content-center">
     <div class="col-sm-6 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/projects/teensy-multieffect-07.png" class="img-fluid rounded z-depth-1" zoomable=true alt="LTspice schematic of the compression circuit with diode clipping network" %}
+        {% include figure.liquid path="assets/img/teensy-multieffect/07.png" class="img-fluid rounded z-depth-1" zoomable=true alt="LTspice schematic of the compression circuit with diode clipping network" %}
     </div>
     <div class="col-sm-6 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/projects/teensy-multieffect-08.png" class="img-fluid rounded z-depth-1" zoomable=true alt="Transient simulation plot with input, reference and output traces" %}
+        {% include figure.liquid path="assets/img/teensy-multieffect/08.png" class="img-fluid rounded z-depth-1" zoomable=true alt="Transient simulation plot with input, reference and output traces" %}
     </div>
 </div>
 <div class="caption">
@@ -88,10 +88,10 @@ Custom **tremolo**, **delay**, and **reverb** algorithms written for the Teensy 
 
 <div class="row justify-content-center">
     <div class="col-sm-6 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/projects/teensy-multieffect-09.png" class="img-fluid rounded z-depth-1" zoomable=true alt="Level-shifting circuit schematic feeding the Teensy ADC" %}
+        {% include figure.liquid path="assets/img/teensy-multieffect/09.png" class="img-fluid rounded z-depth-1" zoomable=true alt="Level-shifting circuit schematic feeding the Teensy ADC" %}
     </div>
     <div class="col-sm-6 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/projects/teensy-multieffect-10.png" class="img-fluid rounded z-depth-1" zoomable=true alt="Power amplifier output stage schematic" %}
+        {% include figure.liquid path="assets/img/teensy-multieffect/10.png" class="img-fluid rounded z-depth-1" zoomable=true alt="Power amplifier output stage schematic" %}
     </div>
 </div>
 <div class="caption">

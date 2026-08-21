@@ -3,8 +3,8 @@ layout: page
 title: PCIe Switch Modeling for AI Inference Fabrics
 description: A transaction-level model of a PCIe switch, built to find where an interconnect fabric actually stalls. Arbitration and queueing choices moved achieved throughput from 36% to 88% of theoretical peak.
 img: assets/img/qualcomm/arbitration-results.svg
-importance: 3
-category: realdeal
+importance: 4
+category: research
 related_publications: false
 ---
 

@@ -200,14 +200,29 @@ ninja.data = [{
           description: "Four fabricated 28 nm chips, 6,912 spins each, wired as a mesh. Time per sweep stays flat as chips are added, and the array runs 32.4x faster than an H200 at three orders of magnitude less energy.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/12_project/";
+            },},{id: "projects-a-full-custom-sram-macro-in-virtuoso",
+          title: 'A Full-Custom SRAM Macro in Virtuoso',
+          description: "A 4 kb SRAM macro drawn from the bitcell up — replica wordline and bitline timing, 25 FO4 read cycle at 1.19 mW, DRC and LVS clean, and stable across six process corners.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/13_project/";
+            },},{id: "projects-monolithic-3d-reram-carbon-nanotube-memory",
+          title: 'Monolithic 3D ReRAM + Carbon Nanotube Memory',
+          description: "A 1 kb ReRAM array with CNT periphery, taped out with back-end-of-line ReRAM and carbon nanotube transistors, then brought up on the bench — FORM, SET and RESET validated in-array.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/14_project/";
             },},{id: "projects-pcie-switch-modeling-for-ai-inference-fabrics",
           title: 'PCIe Switch Modeling for AI Inference Fabrics',
           description: "A transaction-level model of a PCIe switch, built to find where an interconnect fabric actually stalls. Arbitration and queueing choices moved achieved throughput from 36% to 88% of theoretical peak.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/15_project/";
-            },},{id: "projects-fuzz-amp-overdrive-guitar-pedal",
-          title: 'Fuzz &amp;amp; Overdrive Guitar Pedal',
-          description: "Op-amp overdrive with asymmetrical soft clipping, 3-band EQ tone stack, and a clean-blend low-end preserve, housed in a hand-drilled enclosure.",
+            },},{id: "projects-woodshop",
+          title: 'Woodshop',
+          description: "A walnut keepsake box, a folding pine stool, and a couple of plywood pieces — projects where the tolerances are in thirty-seconds of an inch and nothing can be re-spun.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/16_project/";
+            },},{id: "projects-fuzz-amp-overdrive-pedals",
+          title: 'Fuzz &amp;amp; Overdrive Pedals',
+          description: "Two hand-built guitar pedals — an op-amp overdrive with asymmetrical soft clipping, a 3-band tone stack and a clean blend, and a standalone overdrive with a harshness switch — both in enclosures drilled by hand.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
             },},{id: "projects-13-band-equalizer-on-fpga-microblaze",
@@ -220,11 +235,6 @@ ninja.data = [{
           description: "Analog compression front end combined with Teensy 4.0 DSP — tremolo, delay, and reverb algorithms, line/instrument/mic inputs, and up to 2 W of output to drive a stage cab.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/4_project/";
-            },},{id: "projects-overdrive-guitar-pedal",
-          title: 'Overdrive Guitar Pedal',
-          description: "A standalone overdrive pedal — Volume, Tone, Gain, and a harshness switch — built for a friend.",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/5_project/";
             },},{id: "projects-4-complete-songs-fall-2022",
           title: '4 Complete Songs (Fall 2022)',
           description: "Four finished tracks from Fall 2022, including &quot;Nanjing&quot; — a piece named after my hometown.",

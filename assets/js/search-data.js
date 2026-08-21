@@ -180,79 +180,79 @@ ninja.data = [{
       },{id: "news-co-author-on-foundry-monolithic-3d-unlocks-large-throughput-benefits-accepted-to-iedm-2025-san-francisco",
           title: 'Co-author on Foundry Monolithic 3D Unlocks Large Throughput Benefits… — accepted to IEDM...',
           description: "",
-          section: "News",},{id: "projects-opto-electronic-front-end-redesign",
-          title: 'Opto-Electronic Front-End Redesign',
-          description: "Redesigned the photodiode receiver board for DeepSight&#39;s imaging system. Half the power, a third of the input-referred noise, and a 20 to 30 °C drop in board temperature.",
+          section: "News",},{id: "projects-photodiode-front-end-redesign",
+          title: 'Photodiode Front-End Redesign',
+          description: "60% less power and 60% less noise on DeepSight&#39;s imaging receiver, and a board 20–30 °C cooler.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/0_project/";
-            },},{id: "projects-analog-synthesizer-vcv-rack",
-          title: 'Analog Synthesizer (VCV Rack)',
-          description: "Two VCV Rack synth patches — a long-form West Coast drone inspired by Éliane Radigue, and a compact East Coast (VCO → VCF → VCA) patch with separate lead, bass, and chord voices.",
+            },},{id: "projects-vcv-rack-synths",
+          title: 'VCV Rack Synths',
+          description: "A West Coast drone and a compact East Coast patch.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/10_project/";
-            },},{id: "projects-accelerating-distributed-digital-ising-machines",
-          title: 'Accelerating Distributed Digital Ising Machines',
-          description: "Data placement, relaxed synchronization, and a streaming dataflow for Ising machines spread across many devices. Up to 4.2x from placement, 3.16x from scheduling, and 2.01x from streaming, measured on GPUs, FPGAs, and a 28 nm ASIC.",
+            },},{id: "projects-distributed-ising-machines",
+          title: 'Distributed Ising Machines',
+          description: "4.2x from data placement, 3.16x from scheduling, 2.01x from streaming — on GPUs, FPGAs and a 28 nm ASIC.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/11_project/";
-            },},{id: "projects-a-four-chip-28-nm-p-bit-asic-tapeout",
-          title: 'A Four-Chip 28 nm p-bit ASIC Tapeout',
-          description: "Four fabricated 28 nm chips, 6,912 spins each, wired as a mesh. Time per sweep stays flat as chips are added, and the array runs 32.4x faster than an H200 at three orders of magnitude less energy.",
+            },},{id: "projects-28-nm-p-bit-tapeout",
+          title: '28 nm p-bit Tapeout',
+          description: "Four fabricated chips, 27,648 spins, 32.4x faster than an H200.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/12_project/";
-            },},{id: "projects-a-full-custom-sram-macro-in-virtuoso",
-          title: 'A Full-Custom SRAM Macro in Virtuoso',
-          description: "A 4 kb SRAM macro drawn from the bitcell up — replica wordline and bitline timing, 25 FO4 read cycle at 1.19 mW, DRC and LVS clean, and stable across six process corners.",
+            },},{id: "projects-custom-sram-macro",
+          title: 'Custom SRAM Macro',
+          description: "4 kb drawn from the bitcell up. 25 FO4 read at 1.19 mW, DRC and LVS clean.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/13_project/";
-            },},{id: "projects-monolithic-3d-reram-carbon-nanotube-memory",
-          title: 'Monolithic 3D ReRAM + Carbon Nanotube Memory',
-          description: "A 1 kb ReRAM array with CNT periphery, taped out with back-end-of-line ReRAM and carbon nanotube transistors, then brought up on the bench — FORM, SET and RESET validated in-array.",
+            },},{id: "projects-monolithic-3d-memory",
+          title: 'Monolithic 3D Memory',
+          description: "A 1 kb ReRAM and carbon nanotube array, taped out and brought up on the bench.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/14_project/";
-            },},{id: "projects-pcie-switch-modeling-for-ai-inference-fabrics",
-          title: 'PCIe Switch Modeling for AI Inference Fabrics',
-          description: "A transaction-level model of a PCIe switch, built to find where an interconnect fabric actually stalls. Arbitration and queueing choices moved achieved throughput from 36% to 88% of theoretical peak.",
+            },},{id: "projects-pcie-switch-modeling",
+          title: 'PCIe Switch Modeling',
+          description: "Finding where an inference fabric stalls. Throughput from 36% to 88% of peak.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/15_project/";
             },},{id: "projects-woodshop",
           title: 'Woodshop',
-          description: "A walnut keepsake box, a folding pine stool, and a couple of plywood pieces — projects where the tolerances are in thirty-seconds of an inch and nothing can be re-spun.",
+          description: "A walnut box, a folding stool, and some plywood.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/16_project/";
-            },},{id: "projects-fuzz-amp-overdrive-pedals",
-          title: 'Fuzz &amp;amp; Overdrive Pedals',
-          description: "Two hand-built guitar pedals — an op-amp overdrive with asymmetrical soft clipping, a 3-band tone stack and a clean blend, and a standalone overdrive with a harshness switch — both in enclosures drilled by hand.",
+            },},{id: "projects-guitar-pedals",
+          title: 'Guitar Pedals',
+          description: "Two hand-built drive pedals, in enclosures drilled from scratch.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
-            },},{id: "projects-13-band-equalizer-on-fpga-microblaze",
-          title: '13-Band Equalizer on FPGA + MicroBlaze',
-          description: "Stereo 13-band FIR EQ at 50 kHz sample rate, with custom SPI for the LTC1865L ADC and LTC1654 DAC, controlled in C from a MicroBlaze soft-core over AXI4-Lite.",
+            },},{id: "projects-13-band-fpga-equalizer",
+          title: '13-Band FPGA Equalizer',
+          description: "Stereo 13-band FIR at 50 kHz, driven in C from a MicroBlaze soft core.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
-            },},{id: "projects-analog-compression-teensy-multi-effect-processor",
-          title: 'Analog Compression + Teensy Multi-effect Processor',
-          description: "Analog compression front end combined with Teensy 4.0 DSP — tremolo, delay, and reverb algorithms, line/instrument/mic inputs, and up to 2 W of output to drive a stage cab.",
+            },},{id: "projects-teensy-multi-effect",
+          title: 'Teensy Multi-effect',
+          description: "Analog compression into Teensy 4.0 DSP — tremolo, delay, reverb, 2 W out.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/4_project/";
-            },},{id: "projects-4-complete-songs-fall-2022",
-          title: '4 Complete Songs (Fall 2022)',
-          description: "Four finished tracks from Fall 2022, including &quot;Nanjing&quot; — a piece named after my hometown.",
+            },},{id: "projects-four-songs",
+          title: 'Four Songs',
+          description: "Four finished tracks, including &quot;Nanjing&quot; — named after my hometown.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/6_project/";
-            },},{id: "projects-music-demo-dump",
-          title: 'Music DEMO Dump',
-          description: "An evolving collection of demo tracks, sketches, and works-in-progress.",
+            },},{id: "projects-demo-dump",
+          title: 'Demo Dump',
+          description: "Sketches and works-in-progress.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/7_project/";
-            },},{id: "projects-frequency-modulation-synthesis",
-          title: 'Frequency Modulation Synthesis',
-          description: "FM synthesis experiments using Dexed alongside guitar.",
+            },},{id: "projects-fm-synthesis",
+          title: 'FM Synthesis',
+          description: "Dexed experiments alongside guitar.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/8_project/";
-            },},{id: "projects-synth-metal-wait",
-          title: 'Synth Metal: WAIT',
-          description: "A four-minute synth-metal instrumental built with Dexed, Vital, and VCV Rack — influenced by Slipknot and German industrial metal.",
+            },},{id: "projects-wait-synth-metal",
+          title: 'WAIT (Synth Metal)',
+          description: "A four-minute instrumental in Dexed, Vital and VCV Rack.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
             },},{

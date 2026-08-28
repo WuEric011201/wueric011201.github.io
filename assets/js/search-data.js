@@ -235,9 +235,9 @@ ninja.data = [{
           description: "Analog compression into Teensy 4.0 DSP — tremolo, delay, reverb, 2 W out.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/4_project/";
-            },},{id: "projects-four-songs",
-          title: 'Four Songs',
-          description: "Four finished tracks, including &quot;Nanjing&quot; — named after my hometown.",
+            },},{id: "projects-songwriting",
+          title: 'Songwriting',
+          description: "Five finished tracks spanning synth metal, electronic production, and collaborations.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/6_project/";
             },},{id: "projects-demo-dump",
@@ -250,11 +250,6 @@ ninja.data = [{
           description: "Dexed experiments alongside guitar.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/8_project/";
-            },},{id: "projects-wait-synth-metal",
-          title: 'WAIT (Synth Metal)',
-          description: "A four-minute instrumental in Dexed, Vital and VCV Rack.",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/9_project/";
             },},{
         id: 'social-email',
         title: 'email',

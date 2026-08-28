@@ -88,6 +88,6 @@ python3 bin/relink-content.py
 | 28 nm p-bit Tapeout | `research-01-28-nm-p-bit-tapeout` | `_projects/12_project.md` |
 | Distributed Ising Machines | `research-02-distributed-ising-machines` | `_projects/11_project.md` |
 | Monolithic 3D Memory | `research-03-monolithic-3d-memory` | `_projects/14_project.md` |
-| PCIe Switch Modeling | `research-04-pcie-switch-modeling` | `_projects/15_project.md` |
+| AI System Architecture Modeling | `research-04-ai-system-architecture-modeling` | `_projects/15_project.md` |
 | Photodiode Front-End Redesign | `research-05-photodiode-front-end-redesign` | `_projects/0_project.md` |
 | Custom SRAM Macro | `research-06-custom-sram-macro` | `_projects/13_project.md` |

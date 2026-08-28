@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: ECE Ph.D. student at <a href="https://www.cmu.edu/">Carnegie Mellon</a> · 3D IC & ML accelerators
+subtitle: ECE Ph.D. student at <a href="https://www.cmu.edu/">Carnegie Mellon</a> · 3D ICs · probabilistic ML accelerators · guitarist
 
 profile:
   align: right
@@ -33,11 +33,13 @@ Before CMU I earned my B.S. in Electrical Engineering at **Washington University
 
 ## Research
 
-Leading GPU and FPGA scaleup for the Ising algorithm. And then leading a tape-out of a multi-chip Ising accelerator in **TSMC 28 nm** for ultra-large graph problems.
+I lead GPU and FPGA scaling efforts for Ising algorithms, along with the tapeout of a multi-chip Ising accelerator in **TSMC 28 nm** for ultra-large graph problems.
+
+## Personal interests
+
+I'm interested in physical AI and edge intelligence, especially embedded learning for music and audio. Outside research, I [write music and build guitar pedals](/projects/), spanning analog circuits and DSP.
 
 ## Industry experience
 
-- **Qualcomm** — AI Inference Accelerator Architecture Modeling - Hardware Intern (Fall 2025). Built workload-aware switch/cluster simulators in Python and C to study NPU-to-switch attachment, multi-hop routing, congestion, multicast, and link utilization.
-- **DeepSight Technology** — Electrical Engineer Intern (2022 – 2024). Re-designed an opto-electronic front end, achieving a **60% noise reduction** and **60% power saving** (20 – 30 °C drop) through topology selection, PCB layout, and stack-up optimization.
-
-I also write [music and build guitar pedals](/projects/) — see the projects page for the analog and DSP side projects I work on outside of research.
+- **Qualcomm** — Hardware Intern, AI Inference Accelerator Architecture Modeling (Fall 2025). Built architecture models that identified scaling bottlenecks and improved modeled throughput from **36% to 88% of theoretical peak**.
+- **DeepSight Technology** — Electrical Engineer Intern (2022–2024). Redesigned an opto-electronic front end, reducing noise and power by **60% each** while lowering board temperature by **20–30 °C**.

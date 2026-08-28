@@ -62,27 +62,26 @@
       institution: San Diego, CA
       year: Sep 2025 – Dec 2025
       description:
-        - "Project: AI Inference Accelerator Architecture Modeling — Switch Modeling."
-        - Built workload-aware architectural models for AI inference accelerators with all-to-all interconnects, enabling quantitative analysis of scaling behavior and system bottlenecks in Python and C.
-        - Built and extended cluster- and switch-level simulators to study NPU-to-switch attachment, multi-hop routing, congestion dynamics, multicast algorithms, and throughput saturation.
-        - Optimized switching algorithms to improve routing efficiency, reduce congestion, and improve link utilization.
+        - "Project: AI Inference Accelerator Architecture Modeling."
+        - Built workload-aware architecture models that enabled quantitative analysis of scaling behavior and system bottlenecks.
+        - Conducted design-space exploration that improved modeled throughput from 36 % to 88 % of theoretical peak.
+        - Identified key scaling limits and resolved a system-level reliability issue.
     - title: Electrical Engineer Intern — DeepSight Technology Inc.
       institution: St. Louis, MO
       year: May 2023 – May 2024
       description:
-        - title: Photo-diode Circuit Re-Design for Noise Reduction and Power Saving
+        - title: Opto-Electronic Front-End Redesign
           contents:
-            - Analyzed noise performance of the existing opto-electronic system with calculations and SPICE simulation.
-            - Proposed six circuit topologies; designed PCB layout for two; optimized board material, layer stack-up, trace lengths, and widths for thermal, EMI, and signal integrity.
-            - Supervised production and verified circuit performance in frequency and time domains.
+            - Evaluated the existing system and compared design alternatives against performance goals.
+            - Led the redesign through implementation, production, and verification.
             - "Achieved 60 % noise reduction and 60 % power saving — a 20–30 °C temperature drop."
     - title: Engineering Intern — DeepSight Technology Inc.
       institution: St. Louis, MO
       year: Jun 2022 – Aug 2022
       description:
-        - Designed a customized laser control application in Python (Qt Framework).
-        - Automated data acquisition and test in C++ Qt with an Alazar ADC.
-        - Designed and tested a 7-channel analog amplifier PCB to extend the NI DAC output voltage range.
+        - Developed a custom laser-control application.
+        - Automated data-acquisition and test workflows.
+        - Designed and tested supporting analog hardware for laboratory instrumentation.
 
 - title: Teaching
   type: time_table

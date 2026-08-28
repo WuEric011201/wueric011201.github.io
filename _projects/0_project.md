@@ -12,14 +12,14 @@ related_publications: false
 
 <div class="row justify-content-center">
     <div class="col-sm-7 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/deepsight/layout-2-1-3d.png" class="img-fluid rounded z-depth-1" zoomable=true alt="Rendered view of the redesigned multi-channel photodiode board" %}
+        {% include figure.liquid path="assets/img/deepsight/layout-2-1-3d.png" class="img-fluid rounded z-depth-1" zoomable=true alt="Rendered view of the redesigned board" %}
     </div>
 </div>
 <div class="caption">
-    The redesigned multi-channel photodiode board.
+    The redesigned board.
 </div>
 
-I rebuilt the front end that turns photodiode current into the data the imaging system runs on. Six candidate topologies, two taken to layout, one into production.
+I led the redesign of a core imaging receiver subsystem, carrying it from design evaluation through implementation, production, and validation.
 
 ## Measured results
 
@@ -38,47 +38,47 @@ I rebuilt the front end that turns photodiode current into the data the imaging 
   </div>
 </div>
 
-## Choosing the design
+## Design evaluation
 
-Every candidate was modeled and ranked before anything was fabricated, so the selection was a desk exercise instead of a board spin.
+I evaluated multiple alternatives against the project's performance goals and selected the strongest direction before fabrication.
 
 <div class="row justify-content-center">
     <div class="col-sm-12 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/deepsight/topology-comparison.png" class="img-fluid rounded z-depth-1" zoomable=true alt="Comparison table of all candidate topologies with supply rails, transimpedance gain, total gain, input-referred noise, and power" %}
+        {% include figure.liquid path="assets/img/deepsight/topology-comparison.png" class="img-fluid rounded z-depth-1" zoomable=true alt="Comparison of the design alternatives evaluated during the project" %}
     </div>
 </div>
 <div class="caption">
-    All seven candidates on the terms that mattered. Highlighted is the design that shipped; the bottom row is what was already in the field.
+    Design alternatives compared during the selection process.
 </div>
 
 ## Before and after
 
 <div class="row justify-content-center">
     <div class="col-sm-5 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/deepsight/layout-original-3d.png" class="img-fluid rounded z-depth-1" zoomable=true alt="Rendered view of the original production board, densely populated with repeated channel blocks" %}
+        {% include figure.liquid path="assets/img/deepsight/layout-original-3d.png" class="img-fluid rounded z-depth-1" zoomable=true alt="Rendered view of the earlier board" %}
     </div>
     <div class="col-sm-5 mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/deepsight/layout-2-1-3d.png" class="img-fluid rounded z-depth-1" zoomable=true alt="Rendered view of the redesigned board" %}
     </div>
 </div>
 <div class="caption">
-    The board in production, and the replacement.
+    The earlier implementation and the redesigned board.
 </div>
 
-## Layout
+## Implementation
 
-Grounded coplanar waveguide on the signal runs, a ground plane cutout under the transimpedance node where a fraction of a picofarad moves the stability margin, and per-channel routing blocks to hold crosstalk and channel-to-channel variation flat across the array.
+I translated the selected design into a manufacturable board and carried it through build and verification.
 
 <div class="row justify-content-center">
     <div class="col-sm-5 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/deepsight/layout-2-1-copper.png" class="img-fluid rounded z-depth-1" zoomable=true alt="Copper layer view of the redesigned board showing routing and ground plane treatment" %}
+        {% include figure.liquid path="assets/img/deepsight/layout-2-1-copper.png" class="img-fluid rounded z-depth-1" zoomable=true alt="Board implementation view from the redesign process" %}
     </div>
     <div class="col-sm-5 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/deepsight/layout-2-2-inner.png" class="img-fluid rounded z-depth-1" zoomable=true alt="Inner layer view showing the per-channel room definitions that keep channel routing identical" %}
+        {% include figure.liquid path="assets/img/deepsight/layout-2-2-inner.png" class="img-fluid rounded z-depth-1" zoomable=true alt="Additional board implementation view from the redesign process" %}
     </div>
 </div>
 <div class="caption">
-    Copper and inner layers. The outlined blocks on the right constrain each channel to identical routing.
+    Board implementation views from the design process.
 </div>
 
-I wrote the performance specification, compared quotes across PCB manufacturers, supervised the build, and verified the finished boards in the frequency and time domains.
+I wrote the performance specification, coordinated manufacturing, supervised the build, and verified the finished boards against the project goals.

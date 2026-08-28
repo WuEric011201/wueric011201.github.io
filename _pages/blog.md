@@ -28,8 +28,10 @@ pagination:
     }
 
     if (!hasAccess) {
-      const answer = window.prompt("Only Tong's personal friends can check this page.\n\nWhen is Tong's birthday?");
-      hasAccess = answer?.trim().toLowerCase() === "dec. 1st 2001";
+      const answer = window.prompt(
+        "Only Tong's personal friends can check this page.\n\nWhen is Tong's birthday? (month/day/year)",
+      );
+      hasAccess = answer?.trim() === "12/01/2001";
 
       if (hasAccess) {
         try {

@@ -37,9 +37,3 @@ A running dump of demo tracks and unfinished sketches.
         <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" loading="lazy" src="https://w.soundcloud.com/player/?visual=true&url=https%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F1653821094&show_artwork=true"></iframe>
     </div>
 </div>
-
-## Elsewhere
-
-- [YouTube — @Qianeric3825](https://www.youtube.com/@Qianeric3825)
-- [SoundCloud](https://on.soundcloud.com/yEd21)
-- [WatchOUT on Bilibili](https://space.bilibili.com/1927594299)

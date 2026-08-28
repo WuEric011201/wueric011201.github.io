@@ -8,7 +8,29 @@ category: personal
 related_publications: false
 ---
 
-Two pedals, a year or so apart. Same basic problem each time: get a clipping stage to sound good, then get it into a box without wrecking it.
+## Standalone overdrive
+
+Built for my friend Allan as a birthday gift. **Volume**, **Tone** and **Gain**, plus a toggle that switches in extra harshness when the clean version gets boring.
+
+<div class="row justify-content-center">
+    <div class="col-sm-10 mt-3 mt-md-0">
+        <iframe width="100%" height="400" src="https://www.youtube.com/embed/n0N6jfPctfg" title="Overdrive guitar pedal explanation" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+    </div>
+</div>
+
+<div class="row justify-content-center">
+    <div class="col-sm-5 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/fuzz-overdrive/overdrive-02.jpg" class="img-fluid rounded z-depth-1" zoomable=true alt="Finished mint green overdrive pedal with Volume, Tone and Gain knobs and a toggle switch" %}
+    </div>
+    <div class="col-sm-5 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/fuzz-overdrive/overdrive-01.jpg" class="img-fluid rounded z-depth-1" zoomable=true alt="Inside of the enclosure showing the circuit board and hand wiring" %}
+    </div>
+</div>
+<div class="caption">
+    Board, pots and 3PDT footswitch hand-wired into the enclosure.
+</div>
+
+This was the first one where I worked out the mechanical dimensions and drilled the enclosure from scratch, much harder than the circuit in my opinion.
 
 ## Fuzz + overdrive
 
@@ -41,31 +63,6 @@ An op-amp overdrive with **asymmetrical soft clipping**, a **3-band EQ** tone st
     The enclosure before assembly, the gain and tone board, and the pot board alongside the custom 3PDT breakout with its status LED.
 </div>
 
-## Standalone overdrive
+## Conclusion
 
-Built for my friend Allan. **Volume**, **Tone** and **Gain**, plus a toggle that switches in extra harshness when the clean version gets boring.
-
-<div class="row justify-content-center">
-    <div class="col-sm-5 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/fuzz-overdrive/overdrive-02.jpg" class="img-fluid rounded z-depth-1" zoomable=true alt="Finished mint green overdrive pedal with Volume, Tone and Gain knobs and a toggle switch" %}
-    </div>
-    <div class="col-sm-5 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/fuzz-overdrive/overdrive-01.jpg" class="img-fluid rounded z-depth-1" zoomable=true alt="Inside of the enclosure showing the circuit board and hand wiring" %}
-    </div>
-</div>
-<div class="caption">
-    Board, pots and 3PDT footswitch hand-wired into the enclosure.
-</div>
-
-This was the first one where I worked out the mechanical dimensions and drilled the enclosure from scratch — much harder than the circuit.
-
-<div class="row justify-content-center">
-    <div class="col-sm-10 mt-3 mt-md-0">
-        <iframe width="100%" height="400" src="https://www.youtube.com/embed/n0N6jfPctfg" title="Overdrive guitar pedal explanation" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
-    </div>
-</div>
-
-## Listen / watch
-
-- [YouTube — @Qianeric3825](https://www.youtube.com/@Qianeric3825)
-- [SoundCloud](https://on.soundcloud.com/yEd21)
+Soldering is too hard. Lead-poisoning is real. Let's work in digital for the rest of my life.

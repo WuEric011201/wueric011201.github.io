@@ -21,27 +21,32 @@ related_publications: false
 
 I led the redesign of a core imaging receiver subsystem, carrying it from design evaluation through implementation, production, and validation.
 
-## Measured results
+## Achievements - Measured results
 
 <div class="row text-center mt-4 mb-2">
   <div class="col-sm-4 mb-3">
     <h2 class="mb-0">60%</h2>
-    <p class="text-muted mb-0">less power</p>
+    <p class="text-muted mb-0">Power Reduction</p>
   </div>
   <div class="col-sm-4 mb-3">
     <h2 class="mb-0">60%</h2>
-    <p class="text-muted mb-0">less input-referred noise</p>
+    <p class="text-muted mb-0">Input-referred Noise Reduction</p>
   </div>
   <div class="col-sm-4 mb-3">
     <h2 class="mb-0">20–30 °C</h2>
-    <p class="text-muted mb-0">cooler board</p>
+    <p class="text-muted mb-0">Board Temperature Reduction</p>
   </div>
 </div>
 
-## Design evaluation
+## Story
 
-I evaluated multiple alternatives against the project's performance goals and selected the strongest direction before fabrication.
+Worked in the Sophormore to Junior Summer and Junior to Senior Summer and part-timed entire Senior year. Brought to the company by Dr. Fu Li and Dr. Yang Lan. I really wanted to thank their mentorship also the people in the company is really nice: Yihang Li, Haocheng Kang, Lin Hua and Jiangang Zhu all helped me a lot. In the first Summer, I helped Fu Li set up his testing environment: a lot of pyvisa, soldering, PCB and DAC control jobs. In the second summer and over the course of my part time job, I designed this PD frontend.
 
+I wrote the performance specification, coordinated manufacturing, supervised the build, and verified the finished boards against the project goals.
+
+I evaluated multiple alternatives against the project's performance goals and selected the strongest direction before fabrication
+
+<!--
 <div class="row justify-content-center">
     <div class="col-sm-12 mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/deepsight/topology-comparison.png" class="img-fluid rounded z-depth-1" zoomable=true alt="Comparison of the design alternatives evaluated during the project" %}
@@ -81,4 +86,4 @@ I translated the selected design into a manufacturable board and carried it thro
     Board implementation views from the design process.
 </div>
 
-I wrote the performance specification, coordinated manufacturing, supervised the build, and verified the finished boards against the project goals.
+ -->

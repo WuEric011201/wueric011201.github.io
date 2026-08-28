@@ -1,6 +1,7 @@
 ---
 layout: page
-title: WAIT (Synth Metal)
+published: false
+title: Synth + Metal Song-writing
 description: A four-minute instrumental in Dexed, Vital and VCV Rack.
 img: assets/img/synth-metal-wait/cover.jpg
 importance: 7

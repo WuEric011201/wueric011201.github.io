@@ -17,7 +17,7 @@ related_publications: false
     The two multi-device platforms: four XEM8320 FPGA boards in a 2x2 mesh, and four 28 nm ASICs on one board.
 </div>
 
-The problems Ising machines are built for need millions of spins, and no single device holds a million spins. So a real machine is a distributed machine, and the question is what the distribution costs. Published accelerators tend to report one throughput number at one operating point, which leaves the binding resource unnamed.
+The problems Ising machines are built for need millions of spins, and no single device holds a million spins. So a real machine is a distributed machine, and the question is what the distribution costs. Published accelerators tend to report one throughput number at one operating point, leaving open space for design space exploration and analysis.
 
 ## Measured results
 

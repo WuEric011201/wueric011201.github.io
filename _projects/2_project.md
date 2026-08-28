@@ -2,20 +2,13 @@
 layout: page
 title: 13-Band FPGA Equalizer
 description: Stereo 13-band FIR at 50 kHz, driven in C from a MicroBlaze soft core.
-img: assets/img/fpga-eq/cover.jpg
+img: assets/img/fpga-eq/01.jpg
 importance: 1
 category: personal
 related_publications: false
 ---
 
 A real-time 13-band graphic equalizer implemented in HDL on an FPGA, with a MicroBlaze soft-core driving the control plane.
-
-## Highlights
-
-- **13-band FIR filter** running at a 50 kHz sample rate on both stereo channels
-- Custom SPI cores driving the **LTC1865L ADC** and **LTC1654 DAC**
-- **MicroBlaze** soft-core integration over the **AXI4-Lite** bus
-- C firmware on MicroBlaze for band gain control and runtime configuration
 
 <div class="row justify-content-center">
     <div class="col-sm-8 mt-3 mt-md-0">
@@ -25,6 +18,21 @@ A real-time 13-band graphic equalizer implemented in HDL on an FPGA, with a Micr
 <div class="caption">
     The Nexys 4 DDR (Artix-7) board with the ADC and DAC breakouts wired into the Pmod headers.
 </div>
+
+## Demo
+
+<div class="row justify-content-center">
+    <div class="col-sm-10 mt-3 mt-md-0">
+        <iframe width="100%" height="400" src="https://www.youtube.com/embed/PLt0HKvpY5A" title="13-Band Equalizer on FPGA demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+    </div>
+</div>
+
+## Highlights
+
+- **13-band FIR filter** running at a 50 kHz sample rate on both stereo channels
+- Custom SPI cores driving the **LTC1865L ADC** and **LTC1654 DAC**
+- **MicroBlaze** soft-core integration over the **AXI4-Lite** bus
+- C firmware on MicroBlaze for band gain control and runtime configuration
 
 ## System architecture
 
@@ -59,16 +67,3 @@ A real-time 13-band graphic equalizer implemented in HDL on an FPGA, with a Micr
 <div class="caption">
     Datapath (bubble) diagram for the FIR core — coefficient and sample RAMs feeding the multiply-accumulate, with the AXI4-Lite register interface on the left.
 </div>
-
-## Demo
-
-<div class="row justify-content-center">
-    <div class="col-sm-10 mt-3 mt-md-0">
-        <iframe width="100%" height="400" src="https://www.youtube.com/embed/PLt0HKvpY5A" title="13-Band Equalizer on FPGA demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
-    </div>
-</div>
-
-## Listen / watch
-
-- [YouTube](https://www.youtube.com/@Qianeric3825)
-- [SoundCloud](https://on.soundcloud.com/yEd21)

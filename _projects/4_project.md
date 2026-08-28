@@ -97,8 +97,3 @@ Custom **tremolo**, **delay**, and **reverb** algorithms written for the Teensy 
 <div class="caption">
     Left: the level-shifting stage that maps the bipolar analog signal into the Teensy's ADC range, with a 3.3 V regulator and clamp. Right: the power amp output stage, an op-amp driving a current buffer.
 </div>
-
-## Listen / watch
-
-- [YouTube](https://www.youtube.com/@Qianeric3825)
-- [SoundCloud](https://on.soundcloud.com/yEd21)

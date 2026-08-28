@@ -80,8 +80,8 @@ python3 bin/relink-content.py
 | Guitar Pedals | `personal-02-guitar-pedals` | `_projects/1_project.md` |
 | Teensy Multi-effect | `personal-03-teensy-multi-effect` | `_projects/4_project.md` |
 | Woodshop | `personal-04-woodshop` | `_projects/16_project.md` |
-| Four Songs | `personal-06-four-songs` | `_projects/6_project.md` |
-| WAIT (Synth Metal) | `personal-07-wait-synth-metal` | `_projects/9_project.md` |
+| Songwriting | `personal-06-songwriting` | `_projects/6_project.md` |
+| Synth + Metal Song-writing | `personal-07-synth-metal-song-writing` | `_projects/9_project.md` |
 | VCV Rack Synths | `personal-08-vcv-rack-synths` | `_projects/10_project.md` |
 | FM Synthesis | `personal-09-fm-synthesis` | `_projects/8_project.md` |
 | Demo Dump | `personal-10-demo-dump` | `_projects/7_project.md` |

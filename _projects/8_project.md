@@ -26,6 +26,3 @@ Experiments with **FM synthesis** using [Dexed](https://asb2m10.github.io/dexed/
         <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" loading="lazy" src="https://w.soundcloud.com/player/?visual=true&url=https%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F1663116246&show_artwork=true"></iframe>
     </div>
 </div>
-
-- [YouTube](https://www.youtube.com/@Qianeric3825)
-- [SoundCloud](https://on.soundcloud.com/yEd21)

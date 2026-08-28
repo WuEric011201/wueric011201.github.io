@@ -16,7 +16,40 @@ pagination:
     after: 3 # The number of links after the current page
 ---
 
-<div class="post">
+<script>
+  (() => {
+    const accessKey = "tong-blog-access";
+    let hasAccess = false;
+
+    try {
+      hasAccess = window.sessionStorage.getItem(accessKey) === "granted";
+    } catch (_) {
+      // Continue without session persistence when storage is unavailable.
+    }
+
+    if (!hasAccess) {
+      const answer = window.prompt("Only Tong's personal friends can check this page.\n\nWhen is Tong's birthday?");
+      hasAccess = answer?.trim().toLowerCase() === "dec. 1st 2001";
+
+      if (hasAccess) {
+        try {
+          window.sessionStorage.setItem(accessKey, "granted");
+        } catch (_) {
+          // The page can still be viewed when storage is unavailable.
+        }
+      }
+    }
+
+    window.tongBlogAccessGranted = hasAccess;
+
+    if (!hasAccess) {
+      window.alert("Sorry, that answer is incorrect.");
+      window.location.replace("{{ '/' | relative_url }}");
+    }
+  })();
+</script>
+
+<div id="private-blog" class="post" hidden>
 
 {% assign blog_name_size = site.blog_name | size %}
 {% assign blog_description_size = site.blog_description | size %}
@@ -194,3 +227,9 @@ pagination:
 {% endif %}
 
 </div>
+
+<script>
+  if (window.tongBlogAccessGranted) {
+    document.getElementById("private-blog").hidden = false;
+  }
+</script>

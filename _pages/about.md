@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: ECE Ph.D. student at <a href="https://www.cmu.edu/">Carnegie Mellon</a> · 3D ICs · probabilistic ML accelerators · guitarist
+subtitle: ECE Ph.D. student at <a href="https://www.cmu.edu/">Carnegie Mellon</a> · 3D ICs · probabilistic ML · physical AI & edge intelligence · guitarist
 
 profile:
   align: right
@@ -27,17 +27,17 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I'm **Tong Wu**, a Ph.D. student in **Electrical & Computer Engineering at Carnegie Mellon University**, advised by Dr. Tathagata Srimani in the [NEXUS Lab](https://nexus.ece.cmu.edu/). My research is in **3D integrated circuits, ML accelerators, and probabilistic computing**.
+I'm a Ph.D. student in Electrical & Computer Engineering at Carnegie Mellon University, advised by Dr. Tathagata Srimani in the [NEXUS Lab](https://nexus.ece.cmu.edu/). My research spans **3D integrated circuits, ML accelerators, and probabilistic computing**. I'm supported by the **Dean's Fellowship** and the **Qualcomm Ph.D. Fellowship**.
 
-Before CMU I earned my B.S. in Electrical Engineering at **Washington University in St. Louis** (2024), with a minor in Materials Science. I'm supported by the **Dean's Fellowship** and the **Qualcomm Ph.D. Fellowship**.
+Before CMU, I earned my B.S. in Electrical Engineering from **Washington University in St. Louis** (2024), with a minor in Materials Science.
 
 ## Research
 
-I lead GPU and FPGA scaling efforts for Ising algorithms, along with the tapeout of a multi-chip Ising accelerator in **TSMC 28 nm** for ultra-large graph problems.
+I lead GPU and FPGA scaling for Ising algorithms and the tapeout of a multi-chip Ising accelerator in **TSMC 28 nm** for ultra-large graph problems. My work also includes algorithms for probabilistic ML inference and the design and experimental characterization of 3D integrated circuits using emerging materials.
 
 ## Personal interests
 
-I'm interested in physical AI and edge intelligence, especially embedded learning for music and audio. Outside research, I [write music and build guitar pedals](/projects/), spanning analog circuits and DSP.
+I'm especially interested in physical AI and edge intelligence, including embedded learning for music and audio. Outside research, I [write music and build guitar pedals](/projects/), combining analog electronics and DSP.
 
 ## Industry experience
 

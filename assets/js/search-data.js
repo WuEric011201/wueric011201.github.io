@@ -202,7 +202,7 @@ ninja.data = [{
               window.location.href = "/projects/12_project/";
             },},{id: "projects-custom-sram-macro",
           title: 'Custom SRAM Macro',
-          description: "4 kb drawn from the bitcell up. 25 FO4 read at 1.19 mW, DRC and LVS clean.",
+          description: "4 kb drawn from the bitcell up. 25 FO4 read at 1.19 mW",
           section: "Projects",handler: () => {
               window.location.href = "/projects/13_project/";
             },},{id: "projects-monolithic-3d-memory",
@@ -210,8 +210,8 @@ ninja.data = [{
           description: "A 1 kb ReRAM and carbon nanotube array, taped out and brought up on the bench.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/14_project/";
-            },},{id: "projects-ai-system-architecture-modeling",
-          title: 'AI System Architecture Modeling',
+            },},{id: "projects-nsp-network-modeling",
+          title: 'NSP Network Modeling',
           description: "Architecture modeling and design exploration that improved throughput from 36% to 88% of theoretical peak.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/15_project/";

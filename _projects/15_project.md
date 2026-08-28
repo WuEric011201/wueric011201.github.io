@@ -1,6 +1,6 @@
 ---
 layout: page
-title: AI System Architecture Modeling
+title: NSP Network Modeling
 description: Architecture modeling and design exploration that improved throughput from 36% to 88% of theoretical peak.
 img: assets/img/qualcomm/arbitration-results.svg
 importance: 4

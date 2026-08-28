@@ -3,12 +3,12 @@ layout: page
 title: Woodshop
 description: A walnut box, a folding stool, and some plywood.
 img: assets/img/woodshop/box-finished.jpg
-importance: 4
+importance: 2
 category: personal
 related_publications: false
 ---
 
-I spend most of my working life on things that are 28 nanometres wide and only exist on a screen until a fab sends them back months later. The woodshop is the opposite of that in every way, which is exactly why I like it.
+I love woodwork maybe because my Chinese name means Sycamore Tree.
 
 ## Walnut keepsake box
 

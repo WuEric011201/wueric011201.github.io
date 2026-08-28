@@ -40,24 +40,6 @@ The problems Ising machines are built for need millions of spins, and no single 
   </div>
 </div>
 
-## Where the time goes
-
-A sweep costs compute, memory traffic, synchronization, and inter-device communication. Splitting it that way names the binding term, and each one then gets attacked directly. Calibrated once per platform, the split predicts held-out configurations without refitting across three GPU generations, an FPGA, and an ASIC.
-
-The sharpest single result is a residency cliff. At 16,384 spins, one FPGA that spills its couplings to DRAM sweeps in 130 us, while two FPGAs that keep 8,192 spins each on chip sweep in 0.68 us. Same problem, 191x apart, purely from where the data lives. The second board is not buying compute, it is buying the right memory tier.
-
-<div class="row justify-content-center">
-    <div class="col-sm-6 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/pbit/fig09a-sweep-time-vs-problem-size.png" class="img-fluid rounded z-depth-1" zoomable=true alt="Log-log line chart, time per sweep in microseconds against number of spins. Three GPU curves rise gently, two FPGA curves rise sharply past ten thousand spins, and a flat ASIC line sits at about one microsecond" %}
-    </div>
-    <div class="col-sm-6 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/pbit/fig09b-energy-vs-throughput.png" class="img-fluid rounded z-depth-1" zoomable=true alt="Log-log scatter plot, energy per spin update in picojoules against throughput in updates per second, with GPU points near ten thousand picojoules, FPGA points in the hundreds, and ASIC points below ten" %}
-    </div>
-</div>
-<div class="caption">
-    Left: the FPGA curves jump by orders of magnitude where couplings stop fitting on chip, while the ASIC line stays flat because chip-to-chip transfer is hidden behind interior computation. Right: the three platform classes separate by roughly three orders of magnitude in energy at comparable throughput.
-</div>
-
 ## Streaming across devices
 
 A phase-offset dataflow orders the wave slots so every boundary transfer has maximum slack, and when a link meets a latency-transparency criterion the exchange disappears behind interior computation entirely. Measured on a pair of H200 GPUs, a pair of ZCU106 boards, and a four-board XEM8320 mesh.

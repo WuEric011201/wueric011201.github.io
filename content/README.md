@@ -77,9 +77,9 @@ python3 bin/relink-content.py
 | Project | Folder | Real file |
 | --- | --- | --- |
 | 13-Band FPGA Equalizer | `personal-01-13-band-fpga-equalizer` | `_projects/2_project.md` |
+| Woodshop | `personal-02-woodshop` | `_projects/16_project.md` |
 | Guitar Pedals | `personal-02-guitar-pedals` | `_projects/1_project.md` |
 | Teensy Multi-effect | `personal-03-teensy-multi-effect` | `_projects/4_project.md` |
-| Woodshop | `personal-04-woodshop` | `_projects/16_project.md` |
 | Songwriting | `personal-06-songwriting` | `_projects/6_project.md` |
 | Synth + Metal Song-writing | `personal-07-synth-metal-song-writing` | `_projects/9_project.md` |
 | VCV Rack Synths | `personal-08-vcv-rack-synths` | `_projects/10_project.md` |
@@ -88,6 +88,6 @@ python3 bin/relink-content.py
 | 28 nm p-bit Tapeout | `research-01-28-nm-p-bit-tapeout` | `_projects/12_project.md` |
 | Distributed Ising Machines | `research-02-distributed-ising-machines` | `_projects/11_project.md` |
 | Monolithic 3D Memory | `research-03-monolithic-3d-memory` | `_projects/14_project.md` |
-| AI System Architecture Modeling | `research-04-ai-system-architecture-modeling` | `_projects/15_project.md` |
+| NSP Network Modeling | `research-04-nsp-network-modeling` | `_projects/15_project.md` |
 | Photodiode Front-End Redesign | `research-05-photodiode-front-end-redesign` | `_projects/0_project.md` |
 | Custom SRAM Macro | `research-06-custom-sram-macro` | `_projects/13_project.md` |

@@ -1,14 +1,14 @@
 ---
 layout: page
 title: Custom SRAM Macro
-description: 4 kb drawn from the bitcell up. 25 FO4 read at 1.19 mW, DRC and LVS clean.
+description: 4 kb drawn from the bitcell up. 25 FO4 read at 1.19 mW
 img: assets/img/sram-macro/drc-clean.png
 importance: 6
 category: research
 related_publications: false
 ---
 
-**Carnegie Mellon University** · Graduate custom IC design course · Fall 2024 · with Atharva Raut
+**Carnegie Mellon University** · 18-622 Class Project · Fall 2024 · with Atharva Raut
 
 <div class="row justify-content-center">
     <div class="col-sm-10 mt-3 mt-md-0">
@@ -72,29 +72,9 @@ That meant designing five different flavors of "SRAM cell": the real one, a repl
     One sub-array. The ring around the core does two jobs — isolation for the edge cells, and timing generation.
 </div>
 
-## Where the read cycle goes
-
-<div class="row justify-content-center">
-    <div class="col-sm-12 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/sram-macro/read-timing.png" class="img-fluid rounded z-depth-1" zoomable=true alt="Post-extraction transient waveforms showing clock, wordline, sense enable and bitline pair, and read data out, with markers measuring 523.9 ps from clock to wordline and 457.6 ps from wordline to sense enable" %}
-    </div>
-</div>
-<div class="caption">
-    Post-extraction read: about 13 FO4 from address to wordline, 8 more to a usable bitline differential, 5 to data out.
-</div>
-
 Read is the critical path, and it is critical for a structural reason: the bitline cannot start moving until the wordline fires, so the full decode delay lands in front of the slowest part of the cycle. The other constraint that showed up late was that sense enable has to stay low long enough to overlap bitline reset, or the sense amp's internal node never fully recovers between back-to-back reads.
 
-## Corners
-
-<div class="row justify-content-center">
-    <div class="col-sm-11 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/sram-macro/corner-sweep.png" class="img-fluid rounded z-depth-1" zoomable=true alt="Overlaid transient waveforms of read data across six process corners, all switching within a few hundred picoseconds of each other" %}
-    </div>
-</div>
-<div class="caption">
-    Read data across TTLH, TTTT, SSTT, FFTT, SFTT and FSTT at a 1.2 ns clock. Worst slack against the TTLH reference is 264 ps.
-</div>
+Read data across TTLH, TTTT, SSTT, FFTT, SFTT and FSTT at a 1.2 ns clock. Worst slack against the TTLH reference is 264 ps.
 
 Power stays between 1.19 and 1.35 mW across all six. Static CMOS throughout — the plan was to escalate to a faster logic family if timing did not close, and it never had to.
 
@@ -104,5 +84,5 @@ Power stays between 1.19 and 1.35 mW across all six. Static CMOS throughout — 
     </div>
 </div>
 <div class="caption">
-    Contemporaneous notes on the experience.
+    Notes in the La Prima Coffee shop that got showed during the Final Exam of 18622
 </div>

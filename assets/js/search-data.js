@@ -210,9 +210,9 @@ ninja.data = [{
           description: "A 1 kb ReRAM and carbon nanotube array, taped out and brought up on the bench.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/14_project/";
-            },},{id: "projects-pcie-switch-modeling",
-          title: 'PCIe Switch Modeling',
-          description: "Finding where an inference fabric stalls. Throughput from 36% to 88% of peak.",
+            },},{id: "projects-ai-system-architecture-modeling",
+          title: 'AI System Architecture Modeling',
+          description: "Architecture modeling and design exploration that improved throughput from 36% to 88% of theoretical peak.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/15_project/";
             },},{id: "projects-woodshop",

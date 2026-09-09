@@ -1,5 +1,6 @@
 ---
 layout: page
+published: false
 title: Distributed Ising Machines
 description: 4.2x from data placement, 3.16x from scheduling, 2.01x from streaming — on GPUs, FPGAs and a 28 nm ASIC.
 img: assets/img/pbit/fig08-hardware-fpga-mesh-and-asic-mesh.png

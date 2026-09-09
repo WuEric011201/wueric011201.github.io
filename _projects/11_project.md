@@ -53,7 +53,7 @@ A phase-offset dataflow orders the wave slots so every boundary transfer has max
     Speedup from a second device and the extra speedup from streaming, against problem size. Grey dashed lines mark ideal two-device and four-device scaling.
 </div>
 
-The same dataflow runs on silicon, on the [four-chip 28 nm ASIC]({{ '/projects/12_project/' | relative_url }}).
+The same dataflow runs on silicon, on a four-chip 28 nm ASIC.
 
 ## Code
 

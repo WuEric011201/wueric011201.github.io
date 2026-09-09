@@ -190,11 +190,6 @@ ninja.data = [{
           description: "A West Coast drone and a compact East Coast patch.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/10_project/";
-            },},{id: "projects-distributed-ising-machines",
-          title: 'Distributed Ising Machines',
-          description: "4.2x from data placement, 3.16x from scheduling, 2.01x from streaming — on GPUs, FPGAs and a 28 nm ASIC.",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/11_project/";
             },},{id: "projects-custom-sram-macro",
           title: 'Custom SRAM Macro',
           description: "4 kb drawn from the bitcell up. 25 FO4 read at 1.19 mW",

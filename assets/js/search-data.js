@@ -190,6 +190,11 @@ ninja.data = [{
           description: "A West Coast drone and a compact East Coast patch.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/10_project/";
+            },},{id: "projects-28-nm-p-bit-tapeout",
+          title: '28 nm p-bit Tapeout',
+          description: "Four fabricated chips, 27,648 spins, 32.4x faster than an H200.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/12_project/";
             },},{id: "projects-custom-sram-macro",
           title: 'Custom SRAM Macro',
           description: "4 kb drawn from the bitcell up. 25 FO4 read at 1.19 mW",

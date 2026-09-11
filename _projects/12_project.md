@@ -1,6 +1,5 @@
 ---
 layout: page
-published: false
 title: 28 nm p-bit Tapeout
 description: Four fabricated chips, 27,648 spins, 32.4x faster than an H200.
 img: assets/img/pbit/photo-quadchip-board.jpg

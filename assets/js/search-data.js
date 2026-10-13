@@ -215,6 +215,11 @@ ninja.data = [{
           description: "A walnut box, a folding stool, and some plywood.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/16_project/";
+            },},{id: "projects-chromium",
+          title: 'Chromium',
+          description: "Original songs and live performances with my band at CMU.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/chromium/";
             },},{id: "projects-guitar-pedals",
           title: 'Guitar Pedals',
           description: "Two hand-built drive pedals, in enclosures drilled from scratch.",

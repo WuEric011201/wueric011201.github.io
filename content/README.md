@@ -76,6 +76,7 @@ python3 bin/relink-content.py
 
 | Project | Folder | Real file |
 | --- | --- | --- |
+| Chromium | `personal-00-chromium` | `_projects/17_project.md` |
 | 13-Band FPGA Equalizer | `personal-01-13-band-fpga-equalizer` | `_projects/2_project.md` |
 | Woodshop | `personal-02-woodshop` | `_projects/16_project.md` |
 | Guitar Pedals | `personal-02-guitar-pedals` | `_projects/1_project.md` |

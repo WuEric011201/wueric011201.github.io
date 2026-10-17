@@ -222,7 +222,7 @@ ninja.data = [{
               window.location.href = "/projects/chromium/";
             },},{id: "projects-multi-fpga-platforms",
           title: 'Multi-FPGA Platforms',
-          description: "Four XEM8320 boards over SYZYGY, four ZCU106 boards over FMC, and a little Yeats on the PCB.",
+          description: "Four-board FPGA platforms with SYZYGY links and custom FMC routing PCBs using Samtec cables and length-matched signal traces.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/18_project/";
             },},{id: "projects-guitar-pedals",

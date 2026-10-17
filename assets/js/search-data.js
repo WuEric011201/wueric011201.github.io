@@ -220,6 +220,11 @@ ninja.data = [{
           description: "Original songs and live performances with my band at CMU.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/chromium/";
+            },},{id: "projects-multi-fpga-platforms",
+          title: 'Multi-FPGA Platforms',
+          description: "Four XEM8320 boards over SYZYGY, four ZCU106 boards over FMC, and a little Yeats on the PCB.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/18_project/";
             },},{id: "projects-guitar-pedals",
           title: 'Guitar Pedals',
           description: "Two hand-built drive pedals, in enclosures drilled from scratch.",

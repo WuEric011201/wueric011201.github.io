@@ -2,15 +2,15 @@
 layout: page
 title: 28 nm p-bit Tapeout
 description: Four fabricated chips, 27,648 spins, 32.4x faster than an H200.
-img: assets/img/pbit/photo-quadchip-board.jpg
+img: assets/img/pbit/7499.jpg
 importance: 1
 category: research
 related_publications: false
 ---
 
 <div class="row justify-content-center">
-    <div class="col-sm-10 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/pbit/photo-quadchip-board.jpg" class="img-fluid rounded z-depth-1" zoomable=true alt="Photograph of a green printed circuit board holding four square packaged integrated circuits arranged diagonally, with ribbon cable and coaxial connections" %}
+    <div class="col-sm-8 col-lg-7 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/pbit/7499.jpg" class="img-fluid rounded z-depth-1" zoomable=true alt="Top-down view of four packaged ASICs on the quad-chip test board, connected to an FPGA board by three blue ribbon cables" %}
     </div>
 </div>
 <div class="caption">
@@ -49,6 +49,30 @@ A probabilistic-bit array in TSMC 28 nm, 1.5 mm2 of die, 6,912 spins per chip on
     The full-chip layout on the way to sign-off — the spin array blocks filling the core, wrapped in the pad ring.
 </div>
 
+## Measurement setup
+
+<div class="row justify-content-center">
+    <div class="col-sm-10 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/pbit/photo-quadchip-board.jpg" class="img-fluid rounded z-depth-1" zoomable=true alt="The quad-chip test board on the lab bench, connected to an FPGA board, an oscilloscope, and bench instruments through ribbon cables and test leads" %}
+    </div>
+</div>
+<div class="caption">
+    The measurement setup: the four-chip board, FPGA interface, and bench instruments used to characterize the silicon.
+</div>
+
+## Pushing single-chip frequency
+
+To push the operating frequency of a single chip, I reworked the existing four-chip PCB by cutting traces and soldering jumper wires to reroute connections. These photos show the cuts and rewiring on the underside of the board during single-chip testing.
+
+<div class="row justify-content-center">
+    <div class="col-sm-6 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/pbit/7598.jpg" class="img-fluid rounded z-depth-1" zoomable=true alt="Close-up of cut PCB traces near a connector footprint and hand-soldered jumper wires beneath a chip socket" caption="Trace cuts and jumper wires on the underside of the quad-chip PCB." %}
+    </div>
+    <div class="col-sm-6 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/pbit/7599.jpg" class="img-fluid rounded z-depth-1" zoomable=true alt="Wider view of the quad-chip PCB underside showing colored jumper wires soldered between socket pins" caption="The wider view of the board rework for single-chip frequency testing." %}
+    </div>
+</div>
+
 ## Story
 
-Class tape-out of 18-725 2025
+Class tape-out for 18-725, 2025.

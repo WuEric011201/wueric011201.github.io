@@ -88,6 +88,7 @@ python3 bin/relink-content.py
 | Demo Dump | `personal-10-demo-dump` | `_projects/7_project.md` |
 | 28 nm p-bit Tapeout | `research-01-28-nm-p-bit-tapeout` | `_projects/12_project.md` |
 | Distributed Ising Machines | `research-02-distributed-ising-machines` | `_projects/11_project.md` |
+| Multi-FPGA Platforms | `research-02-multi-fpga-platforms` | `_projects/18_project.md` |
 | Monolithic 3D Memory | `research-03-monolithic-3d-memory` | `_projects/14_project.md` |
 | NSP Network Modeling | `research-04-nsp-network-modeling` | `_projects/15_project.md` |
 | Photodiode Front-End Redesign | `research-05-photodiode-front-end-redesign` | `_projects/0_project.md` |

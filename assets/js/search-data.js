@@ -215,8 +215,8 @@ ninja.data = [{
           description: "A walnut box, a folding stool, and some plywood.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/16_project/";
-            },},{id: "projects-chromium",
-          title: 'Chromium',
+            },},{id: "projects-heaviest-band-in-cmu",
+          title: 'heaviest band in CMU',
           description: "Original songs and live performances with my band at CMU.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/chromium/";
@@ -263,13 +263,6 @@ ninja.data = [{
           window.open("mailto:%77%75%65%72%69%63%31%35%31@%67%6D%61%69%6C.%63%6F%6D", "_blank");
         },
       },{
-        id: 'social-github',
-        title: 'GitHub',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://github.com/WuEric011201", "_blank");
-        },
-      },{
         id: 'social-linkedin',
         title: 'LinkedIn',
         section: 'Socials',
@@ -289,19 +282,5 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("https://youtube.com/@tw63130", "_blank");
-        },
-      },{
-        id: 'social-soundcloud_username',
-        title: 'Soundcloud_username',
-        section: 'Socials',
-        handler: () => {
-          window.open("", "_blank");
-        },
-      },{
-        id: 'social-spotify',
-        title: 'Spotify',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://open.spotify.com/user/3Jrym9MCO8TfBAInpVVS6m", "_blank");
         },
       },];

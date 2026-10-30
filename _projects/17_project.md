@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Chromium
+title: heaviest band in CMU
 description: Original songs and live performances with my band at CMU.
 img: assets/img/chromium/battle-of-the-bands.jpg
 importance: 0

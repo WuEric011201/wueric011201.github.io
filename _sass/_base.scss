@@ -676,6 +676,48 @@ footer.sticky-bottom {
 // Projects
 
 .projects {
+  .project-filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.6rem;
+    margin-bottom: 2rem;
+  }
+
+  .project-filter {
+    padding: 0.65rem 1rem;
+    border: 1px solid var(--global-divider-color);
+    border-radius: 0.6rem;
+    background: var(--global-code-bg-color);
+    color: var(--global-text-color);
+    font: inherit;
+    font-size: 0.85rem;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    cursor: pointer;
+
+    &:hover {
+      border-color: var(--global-theme-color);
+      color: var(--global-theme-color);
+    }
+
+    &[aria-pressed="true"] {
+      border-color: var(--global-theme-color);
+      background: var(--global-theme-color);
+      color: var(--global-bg-color);
+    }
+
+    &:focus-visible {
+      outline: 2px solid var(--global-theme-color);
+      outline-offset: 3px;
+    }
+  }
+
+  .project-filters[hidden],
+  [data-project-category][hidden] {
+    display: none;
+  }
+
   a {
     text-decoration: none;
 

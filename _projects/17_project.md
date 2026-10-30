@@ -9,9 +9,17 @@ permalink: /projects/chromium/
 related_publications: false
 ---
 
-Chromium is my band at CMU. Here are three recent videos of our original music, including a set at Battle of the Bands.
+Chromium is my band at CMU. Here are videos of our music and live performances, including a set at Battle of the Bands.
 
 Follow us on Instagram: [@chromiumusic](https://www.instagram.com/chromiumusic/).
+
+## Oct29 Set
+
+<div class="embed-responsive embed-responsive-16by9 mb-3">
+  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/pQSpQoscMIw" title="Chromium — Oct29 Set" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="lazy"></iframe>
+</div>
+
+[Watch Oct29 Set on YouTube](https://youtu.be/pQSpQoscMIw)
 
 ## Disintegrate
 

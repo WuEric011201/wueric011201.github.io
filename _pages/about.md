@@ -37,7 +37,7 @@ I lead GPU and FPGA scaling for Ising algorithms and the tapeout of a multi-chip
 
 ## Personal interests
 
-I'm especially interested in physical AI and edge intelligence, including embedded learning for music and audio. Outside research, I play in [Chromium](/projects/chromium/) and used to play in [WatchOut](https://open.spotify.com/artist/3Jrym9MCO8TfBAInpVVS6m). I also [write music and build guitar pedals](/projects/), combining analog electronics and DSP.
+I'm especially interested in physical AI and edge intelligence, including embedded learning for music and audio. Outside research, I play in [Chromium](/projects/chromium/) and used to play in [WatchOut](https://open.spotify.com/artist/3Jrym9MCO8TfBAInpVVS6m). I also [write music and build guitar pedals](/projects/#personal), combining analog electronics and DSP.
 
 ## Industry experience
 

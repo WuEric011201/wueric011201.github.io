@@ -76,5 +76,10 @@ layout: default
     {% if site.newsletter and site.newsletter.enabled and site.footer_fixed %}
       {% include newsletter.liquid center=true %}
     {% endif %}
+
+    <p class="about-blog">
+      <a href="{{ '/blog/' | relative_url }}">Blog</a>
+      <span>(friends only, birthday required)</span>
+    </p>
   </article>
 </div>

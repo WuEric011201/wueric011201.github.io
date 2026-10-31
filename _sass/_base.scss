@@ -455,6 +455,17 @@ ul.task-list input[type="checkbox"] {
   }
 }
 
+.about-blog {
+  margin: 2rem 0 0;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  text-align: center;
+
+  a {
+    font-weight: 600;
+  }
+}
+
 .wechat-modal {
   display: none;
   position: fixed;

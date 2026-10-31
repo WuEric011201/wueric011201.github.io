@@ -39,8 +39,6 @@ I lead GPU and FPGA scaling for Ising algorithms and the tapeout of a multi-chip
 
 I'm especially interested in physical AI and edge intelligence, including embedded learning for music and audio. Outside research, I play in [Chromium](/projects/chromium/) and used to play in [WatchOut](https://open.spotify.com/artist/3Jrym9MCO8TfBAInpVVS6m). I also [write music and build guitar pedals](/projects/#personal), combining analog electronics and DSP.
 
-[Blog]({{ '/blog/' | relative_url }}) (friends only, birthday required).
-
 ## Industry experience
 
 - **Qualcomm** — Hardware Intern, AI Inference Accelerator Architecture Modeling (Fall 2025). Built architecture models that identified scaling bottlenecks and improved modeled throughput from **36% to 88% of theoretical peak**.
